@@ -1,0 +1,306 @@
+{
+  "logistic": [
+    {
+      "stratum": "phase_group=1",
+      "n": 218,
+      "events": 49,
+      "passes": true
+    },
+    {
+      "stratum": "phase_group=1-2",
+      "n": 98,
+      "events": 18,
+      "passes": false
+    },
+    {
+      "stratum": "phase_group=2",
+      "n": 348,
+      "events": 57,
+      "passes": true
+    },
+    {
+      "stratum": "phase_group=2-3",
+      "n": 34,
+      "events": 3,
+      "passes": false
+    },
+    {
+      "stratum": "phase_group=3",
+      "n": 112,
+      "events": 16,
+      "passes": false
+    },
+    {
+      "stratum": "phase_group=4",
+      "n": 156,
+      "events": 22,
+      "passes": false
+    },
+    {
+      "stratum": "phase_group=Early 1",
+      "n": 117,
+      "events": 14,
+      "passes": false
+    },
+    {
+      "stratum": "phase_group=N/A",
+      "n": 2740,
+      "events": 166,
+      "passes": true
+    },
+    {
+      "stratum": "phase_group=missing",
+      "n": 2,
+      "events": 0,
+      "passes": false
+    },
+    {
+      "stratum": "condition_group=Cardiovascular",
+      "n": 222,
+      "events": 30,
+      "passes": true
+    },
+    {
+      "stratum": "condition_group=Congenital, hereditary & neonatal",
+      "n": 6,
+      "events": 1,
+      "passes": false
+    },
+    {
+      "stratum": "condition_group=Digestive",
+      "n": 35,
+      "events": 4,
+      "passes": false
+    },
+    {
+      "stratum": "condition_group=Eye, ENT & stomatognathic",
+      "n": 20,
+      "events": 6,
+      "passes": false
+    },
+    {
+      "stratum": "condition_group=Hemic, lymphatic & immune",
+      "n": 50,
+      "events": 8,
+      "passes": false
+    },
+    {
+      "stratum": "condition_group=Infections",
+      "n": 340,
+      "events": 19,
+      "passes": false
+    },
+    {
+      "stratum": "condition_group=Injuries, chemical & environmental",
+      "n": 21,
+      "events": 0,
+      "passes": false
+    },
+    {
+      "stratum": "condition_group=Mental & behavioral",
+      "n": 1462,
+      "events": 94,
+      "passes": true
+    },
+    {
+      "stratum": "condition_group=Musculoskeletal, skin & connective",
+      "n": 34,
+      "events": 4,
+      "passes": false
+    },
+    {
+      "stratum": "condition_group=Neoplasms",
+      "n": 427,
+      "events": 77,
+      "passes": true
+    },
+    {
+      "stratum": "condition_group=Nervous system",
+      "n": 161,
+      "events": 7,
+      "passes": false
+    },
+    {
+      "stratum": "condition_group=No MeSH term",
+      "n": 519,
+      "events": 42,
+      "passes": true
+    },
+    {
+      "stratum": "condition_group=Nutritional, metabolic & endocrine",
+      "n": 275,
+      "events": 19,
+      "passes": false
+    },
+    {
+      "stratum": "condition_group=Other / symptoms only",
+      "n": 97,
+      "events": 9,
+      "passes": false
+    },
+    {
+      "stratum": "condition_group=Respiratory",
+      "n": 70,
+      "events": 14,
+      "passes": false
+    },
+    {
+      "stratum": "condition_group=Urogenital & pregnancy",
+      "n": 86,
+      "events": 11,
+      "passes": false
+    }
+  ],
+  "hgb": [
+    {
+      "stratum": "phase_group=1",
+      "n": 218,
+      "events": 49,
+      "passes": true
+    },
+    {
+      "stratum": "phase_group=1-2",
+      "n": 98,
+      "events": 18,
+      "passes": false
+    },
+    {
+      "stratum": "phase_group=2",
+      "n": 348,
+      "events": 57,
+      "passes": true
+    },
+    {
+      "stratum": "phase_group=2-3",
+      "n": 34,
+      "events": 3,
+      "passes": false
+    },
+    {
+      "stratum": "phase_group=3",
+      "n": 112,
+      "events": 16,
+      "passes": false
+    },
+    {
+      "stratum": "phase_group=4",
+      "n": 156,
+      "events": 22,
+      "passes": false
+    },
+    {
+      "stratum": "phase_group=Early 1",
+      "n": 117,
+      "events": 14,
+      "passes": false
+    },
+    {
+      "stratum": "phase_group=N/A",
+      "n": 2740,
+      "events": 166,
+      "passes": true
+    },
+    {
+      "stratum": "phase_group=missing",
+      "n": 2,
+      "events": 0,
+      "passes": false
+    },
+    {
+      "stratum": "condition_group=Cardiovascular",
+      "n": 222,
+      "events": 30,
+      "passes": true
+    },
+    {
+      "stratum": "condition_group=Congenital, hereditary & neonatal",
+      "n": 6,
+      "events": 1,
+      "passes": false
+    },
+    {
+      "stratum": "condition_group=Digestive",
+      "n": 35,
+      "events": 4,
+      "passes": false
+    },
+    {
+      "stratum": "condition_group=Eye, ENT & stomatognathic",
+      "n": 20,
+      "events": 6,
+      "passes": false
+    },
+    {
+      "stratum": "condition_group=Hemic, lymphatic & immune",
+      "n": 50,
+      "events": 8,
+      "passes": false
+    },
+    {
+      "stratum": "condition_group=Infections",
+      "n": 340,
+      "events": 19,
+      "passes": false
+    },
+    {
+      "stratum": "condition_group=Injuries, chemical & environmental",
+      "n": 21,
+      "events": 0,
+      "passes": false
+    },
+    {
+      "stratum": "condition_group=Mental & behavioral",
+      "n": 1462,
+      "events": 94,
+      "passes": true
+    },
+    {
+      "stratum": "condition_group=Musculoskeletal, skin & connective",
+      "n": 34,
+      "events": 4,
+      "passes": false
+    },
+    {
+      "stratum": "condition_group=Neoplasms",
+      "n": 427,
+      "events": 77,
+      "passes": true
+    },
+    {
+      "stratum": "condition_group=Nervous system",
+      "n": 161,
+      "events": 7,
+      "passes": false
+    },
+    {
+      "stratum": "condition_group=No MeSH term",
+      "n": 519,
+      "events": 42,
+      "passes": true
+    },
+    {
+      "stratum": "condition_group=Nutritional, metabolic & endocrine",
+      "n": 275,
+      "events": 19,
+      "passes": false
+    },
+    {
+      "stratum": "condition_group=Other / symptoms only",
+      "n": 97,
+      "events": 9,
+      "passes": false
+    },
+    {
+      "stratum": "condition_group=Respiratory",
+      "n": 70,
+      "events": 14,
+      "passes": false
+    },
+    {
+      "stratum": "condition_group=Urogenital & pregnancy",
+      "n": 86,
+      "events": 11,
+      "passes": false
+    }
+  ]
+}

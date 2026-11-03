@@ -1,0 +1,438 @@
+{
+  "notes": [
+    "total_cost_*_primary is NaN for trials with no attributable (non-umbrella, N=20) project; 0 when attributable projects exist but no parent row overlaps the trial window",
+    "TOTAL_COST null on a parent row counts as 0 and is tallied in n_fy_rows_cost_null_*",
+    "CPI: FY row deflated with the calendar-year CPI-U annual average of its nominal fiscal year (FY2015 -> CY2015)"
+  ],
+  "umbrella_projects": {
+    "projects_in_link_file": 24206,
+    "is_umbrella_n20": 112,
+    "is_umbrella_n50": 42,
+    "is_umbrella_activity_P30_U10": 481,
+    "cohort_linked_projects": 10079,
+    "cohort_projects_umbrella_n20": 106,
+    "cohort_projects_umbrella_n50": 42,
+    "cohort_projects_umbrella_activity": 308
+  },
+  "cpi": {
+    "available": true,
+    "base_year": 2020,
+    "index_base_year": 258.856,
+    "years_covered": [
+      1947,
+      2025
+    ]
+  },
+  "train_n": 7436,
+  "train_attributable_by_rule": {
+    "n20": {
+      "no_attributable_funding": {
+        "n": 1523,
+        "o1_events": 359,
+        "completed": 998,
+        "unknown": 19,
+        "censored": 147
+      },
+      "with_attributable_funding": {
+        "n": 5913,
+        "o1_events": 417,
+        "completed": 5157,
+        "unknown": 193,
+        "censored": 146
+      }
+    },
+    "n50": {
+      "no_attributable_funding": {
+        "n": 1172,
+        "o1_events": 288,
+        "completed": 749,
+        "unknown": 18,
+        "censored": 117
+      },
+      "with_attributable_funding": {
+        "n": 6264,
+        "o1_events": 488,
+        "completed": 5406,
+        "unknown": 194,
+        "censored": 176
+      }
+    },
+    "activity": {
+      "no_attributable_funding": {
+        "n": 1457,
+        "o1_events": 340,
+        "completed": 965,
+        "unknown": 22,
+        "censored": 130
+      },
+      "with_attributable_funding": {
+        "n": 5979,
+        "o1_events": 436,
+        "completed": 5190,
+        "unknown": 190,
+        "censored": 163
+      }
+    }
+  },
+  "train_a2_flag": {
+    "withdrawn_zero_enroll": {
+      "n": 154,
+      "o1_events": 154,
+      "completed": 0,
+      "unknown": 0,
+      "censored": 0
+    },
+    "withdrawn_total": {
+      "n": 154,
+      "o1_events": 154,
+      "completed": 0,
+      "unknown": 0,
+      "censored": 0
+    },
+    "withdrawn_enrollment_null": 0
+  },
+  "train_phase_group": {
+    "N/A": 3658,
+    "2": 1491,
+    "1": 855,
+    "3": 479,
+    "1-2": 364,
+    "4": 318,
+    "Early 1": 138,
+    "2-3": 132,
+    "missing": 1
+  },
+  "train_condition_group": {
+    "Mental & behavioral": 2110,
+    "Neoplasms": 2093,
+    "No MeSH term": 778,
+    "Nutritional, metabolic & endocrine": 533,
+    "Infections": 526,
+    "Cardiovascular": 446,
+    "Nervous system": 263,
+    "Other / symptoms only": 150,
+    "Respiratory": 140,
+    "Urogenital & pregnancy": 101,
+    "Hemic, lymphatic & immune": 91,
+    "Digestive": 78,
+    "Musculoskeletal, skin & connective": 47,
+    "Eye, ENT & stomatognathic": 40,
+    "Injuries, chemical & environmental": 27,
+    "Congenital, hereditary & neonatal": 13
+  },
+  "train_n_top_headings": {
+    "0": 788,
+    "1": 1541,
+    "2": 2343,
+    "3": 1531,
+    "4": 770,
+    "5": 266,
+    "6": 112,
+    "7": 42,
+    "8": 17,
+    "9": 9,
+    "10": 5,
+    "11": 3,
+    "12": 7,
+    "13": 2
+  },
+  "train_top_heading_carriage": {
+    "Neoplasms": 2093,
+    "Pathological Conditions, Signs and Symptoms": 1722,
+    "Mental Disorders": 1454,
+    "Behavior": 1313,
+    "Urogenital Diseases": 908,
+    "Immune System Diseases": 906,
+    "Nutritional and Metabolic Diseases": 886,
+    "Nervous System Diseases": 848,
+    "Cardiovascular Diseases": 718,
+    "Chemically-Induced Disorders": 705,
+    "Infections": 654,
+    "Hemic and Lymphatic Diseases": 634,
+    "Endocrine System Diseases": 586,
+    "Respiratory Tract Diseases": 530,
+    "Digestive System Diseases": 511,
+    "Skin and Connective Tissue Diseases": 493,
+    "Female Urogenital Diseases and Pregnancy Complications": 460,
+    "Male Urogenital Diseases": 348,
+    "Congenital, Hereditary, and Neonatal Diseases and Abnormalities": 278,
+    "Musculoskeletal Diseases": 160,
+    "Wounds and Injuries": 134,
+    "Eye Diseases": 99,
+    "Stomatognathic Diseases": 86,
+    "Otorhinolaryngologic Diseases": 74,
+    "Occupational Diseases": 3,
+    "Animal Diseases": 2,
+    "Disorders of Environmental Origin": 1
+  },
+  "train_sponsor_class": {
+    "OTHER": 6309,
+    "NIH": 608,
+    "NETWORK": 239,
+    "INDUSTRY": 177,
+    "FED": 78,
+    "OTHER_GOV": 16,
+    "INDIV": 9
+  },
+  "train_activity_class_primary": {
+    "R": 3883,
+    "none": 1523,
+    "U": 904,
+    "P": 549,
+    "K": 439,
+    "other": 138
+  },
+  "train_activity_class_all": {
+    "R": 3859,
+    "U": 1536,
+    "P": 1494,
+    "K": 430,
+    "other": 117
+  },
+  "train_ic_modal_primary_top15": {
+    "CA": 928,
+    "MH": 737,
+    "DA": 704,
+    "HL": 644,
+    "DK": 531,
+    "HD": 394,
+    "AG": 270,
+    "AT": 210,
+    "AA": 184,
+    "NR": 169,
+    "AI": 152,
+    "NS": 140,
+    "HS": 113,
+    "AR": 90,
+    "MD": 76
+  },
+  "train_ic_modal_all_top15": {
+    "CA": 2390,
+    "MH": 737,
+    "DA": 702,
+    "HL": 635,
+    "DK": 531,
+    "HD": 396,
+    "AG": 270,
+    "AT": 210,
+    "AI": 191,
+    "AA": 184,
+    "NR": 168,
+    "NS": 143,
+    "HS": 112,
+    "AR": 90,
+    "TR": 78
+  },
+  "train_ic_group_primary": {
+    "none": 1523,
+    "other": 1142,
+    "CA": 928,
+    "MH": 737,
+    "DA": 704,
+    "HL": 644,
+    "DK": 531,
+    "HD": 394,
+    "AG": 270,
+    "AT": 210,
+    "AA": 184,
+    "NR": 169
+  },
+  "config_ic_top10": [
+    "CA",
+    "MH",
+    "DA",
+    "HL",
+    "DK",
+    "HD",
+    "AG",
+    "AT",
+    "AA",
+    "NR"
+  ],
+  "config_ic_top10_matches_train_primary": true,
+  "train_dollars_2020": {
+    "primary_attributable_set": {
+      "overall": {
+        "n": 5913,
+        "median": 1971946.4043366113,
+        "q1": 697911.4927457666,
+        "q3": 3685967.635894176,
+        "p90": 9998611.26372927
+      },
+      "phase Early 1": {
+        "n": 103,
+        "median": 1232772.448293999,
+        "q1": 613915.3837464605,
+        "q3": 3225249.1188063966,
+        "p90": 10830281.909329642
+      },
+      "phase 1": {
+        "n": 529,
+        "median": 1464539.090088347,
+        "q1": 566151.1352328397,
+        "q3": 4922154.255605471,
+        "p90": 13378669.719647223
+      },
+      "phase 1-2": {
+        "n": 248,
+        "median": 1805362.3339960496,
+        "q1": 584386.8422855419,
+        "q3": 4563093.242836273,
+        "p90": 15392668.669602063
+      },
+      "phase 2": {
+        "n": 853,
+        "median": 2056882.542038271,
+        "q1": 816011.1646659209,
+        "q3": 5235667.035110135,
+        "p90": 13495654.552845059
+      },
+      "phase 2-3": {
+        "n": 115,
+        "median": 2480675.974302464,
+        "q1": 880527.026770025,
+        "q3": 4960369.176082594,
+        "p90": 12952928.156416718
+      },
+      "phase 3": {
+        "n": 366,
+        "median": 3422011.542127146,
+        "q1": 1824193.9505800419,
+        "q3": 10707584.084990133,
+        "p90": 24668891.253930934
+      },
+      "phase 4": {
+        "n": 292,
+        "median": 2233093.3486358095,
+        "q1": 871612.8175604036,
+        "q3": 4005905.809024224,
+        "p90": 12083492.765659446
+      },
+      "phase N/A": {
+        "n": 3407,
+        "median": 1844373.7483822112,
+        "q1": 622573.703982098,
+        "q3": 3327966.315252116,
+        "p90": 6206250.48960203
+      },
+      "nominal_overall": {
+        "n": 5913,
+        "median": 1747214.0,
+        "q1": 615600.0,
+        "q3": 3307385.0,
+        "p90": 8835559.800000003
+      },
+      "n_fy_overlap": {
+        "n": 5913,
+        "median": 3.0,
+        "q1": 2.0,
+        "q3": 5.0,
+        "p90": 5.0
+      },
+      "n_projects_overlap": {
+        "n": 5913,
+        "median": 1.0,
+        "q1": 1.0,
+        "q3": 1.0,
+        "p90": 1.0
+      },
+      "n_attributable_projects": {
+        "n": 5913,
+        "median": 1.0,
+        "q1": 1.0,
+        "q3": 1.0,
+        "p90": 1.0
+      },
+      "trials_with_zero_dollars": 79,
+      "trials_with_any_cost_null_row": 54
+    },
+    "all_linked": {
+      "overall": {
+        "n": 7436,
+        "median": 2978643.178908256,
+        "q1": 927520.6175633346,
+        "q3": 13607778.221390707,
+        "p90": 52192240.38334422
+      },
+      "phase Early 1": {
+        "n": 138,
+        "median": 2600151.417623032,
+        "q1": 770152.9020034964,
+        "q3": 22368725.133442987,
+        "p90": 45896050.12906746
+      },
+      "phase 1": {
+        "n": 855,
+        "median": 8498193.25378657,
+        "q1": 1156899.664609538,
+        "q3": 28895322.866340883,
+        "p90": 74223449.29073365
+      },
+      "phase 1-2": {
+        "n": 364,
+        "median": 6215304.693989871,
+        "q1": 1231226.1344030576,
+        "q3": 42543114.237752475,
+        "p90": 96267569.48397699
+      },
+      "phase 2": {
+        "n": 1491,
+        "median": 11667906.783702051,
+        "q1": 1911359.8195459857,
+        "q3": 44319089.198146716,
+        "p90": 100252268.93270235
+      },
+      "phase 2-3": {
+        "n": 132,
+        "median": 3236806.955615353,
+        "q1": 1274127.9824894173,
+        "q3": 14903171.629488982,
+        "p90": 68898884.21361195
+      },
+      "phase 3": {
+        "n": 479,
+        "median": 8780479.95577431,
+        "q1": 2444042.5865128664,
+        "q3": 39571588.80480987,
+        "p90": 136810960.06699473
+      },
+      "phase 4": {
+        "n": 318,
+        "median": 2633004.8715215484,
+        "q1": 1007936.182614952,
+        "q3": 5887266.262974748,
+        "p90": 17626031.06616379
+      },
+      "phase N/A": {
+        "n": 3658,
+        "median": 2098339.7278823024,
+        "q1": 701707.7453626404,
+        "q3": 3778526.5885440498,
+        "p90": 12641414.681438038
+      },
+      "phase missing": {
+        "n": 1,
+        "median": 48291927.16143836,
+        "q1": 48291927.16143836,
+        "q3": 48291927.16143836,
+        "p90": 48291927.16143836
+      },
+      "n_fy_overlap": {
+        "n": 7436,
+        "median": 4.0,
+        "q1": 2.0,
+        "q3": 5.0,
+        "p90": 7.0
+      },
+      "n_projects_overlap": {
+        "n": 7436,
+        "median": 1.0,
+        "q1": 1.0,
+        "q3": 1.0,
+        "p90": 2.0
+      },
+      "trials_with_zero_dollars": 51
+    }
+  },
+  "train_zero_parent_overlap_all_linked": 0
+}

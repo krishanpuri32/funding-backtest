@@ -1,0 +1,26 @@
+[project]
+name = "funding-backtest"
+version = "0.1.0"
+description = "Funding-trajectory backtest: does the NIH funding trajectory of a clinical trial add predictive skill for operational failure beyond stage-level priors?"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.2",
+    "pyarrow>=15",
+    "requests>=2.31",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+models = ["scikit-learn>=1.5", "scipy>=1.13", "joblib>=1.4", "matplotlib>=3.9"]
+pull = ["playwright>=1.64"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

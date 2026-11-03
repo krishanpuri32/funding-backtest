@@ -1,0 +1,133 @@
+{
+  "n20": {
+    "train": {
+      "attributable_trials": 5913,
+      "f_rows_reason": {
+        "ok": 5372,
+        "all_cut": 466,
+        "cost_unknown": 47,
+        "no_overlap": 28
+      },
+      "landmark_trials": 5419,
+      "o1_events": 358,
+      "completed": 4725,
+      "censored": 143,
+      "unknown": 193,
+      "o1_events_dropped_by_landmark": 59
+    },
+    "test": {
+      "attributable_trials": 5056,
+      "f_rows_reason": {
+        "ok": 4394,
+        "all_cut": 570,
+        "cost_unknown": 83,
+        "no_overlap": 9
+      },
+      "landmark_trials": 4477,
+      "o1_events": 345,
+      "completed": 3480,
+      "censored": 464,
+      "unknown": 188,
+      "o1_events_dropped_by_landmark": 91
+    },
+    "cell_on_test": "full plan (>= 300)"
+  },
+  "n50": {
+    "train": {
+      "attributable_trials": 6264,
+      "f_rows_reason": {
+        "ok": 5700,
+        "all_cut": 490,
+        "cost_unknown": 47,
+        "no_overlap": 27
+      },
+      "landmark_trials": 5747,
+      "o1_events": 419,
+      "completed": 4958,
+      "censored": 176,
+      "unknown": 194,
+      "o1_events_dropped_by_landmark": 69
+    },
+    "test": {
+      "attributable_trials": 5197,
+      "f_rows_reason": {
+        "ok": 4526,
+        "all_cut": 581,
+        "cost_unknown": 83,
+        "no_overlap": 7
+      },
+      "landmark_trials": 4609,
+      "o1_events": 367,
+      "completed": 3524,
+      "censored": 530,
+      "unknown": 188,
+      "o1_events_dropped_by_landmark": 100
+    },
+    "cell_on_test": "full plan (>= 300)"
+  },
+  "activity": {
+    "train": {
+      "attributable_trials": 5979,
+      "f_rows_reason": {
+        "ok": 5441,
+        "all_cut": 462,
+        "cost_unknown": 47,
+        "no_overlap": 29
+      },
+      "landmark_trials": 5488,
+      "o1_events": 373,
+      "completed": 4762,
+      "censored": 163,
+      "unknown": 190,
+      "o1_events_dropped_by_landmark": 63
+    },
+    "test": {
+      "attributable_trials": 5096,
+      "f_rows_reason": {
+        "ok": 4443,
+        "all_cut": 564,
+        "cost_unknown": 83,
+        "no_overlap": 6
+      },
+      "landmark_trials": 4526,
+      "o1_events": 350,
+      "completed": 3448,
+      "censored": 540,
+      "unknown": 188,
+      "o1_events_dropped_by_landmark": 92
+    },
+    "cell_on_test": "full plan (>= 300)"
+  },
+  "none": {
+    "train": {
+      "attributable_trials": 7436,
+      "f_rows_reason": {
+        "ok": 6860,
+        "all_cut": 529,
+        "cost_unknown": 47
+      },
+      "landmark_trials": 6907,
+      "o1_events": 684,
+      "completed": 5718,
+      "censored": 293,
+      "unknown": 212,
+      "o1_events_dropped_by_landmark": 92
+    },
+    "test": {
+      "attributable_trials": 6547,
+      "f_rows_reason": {
+        "ok": 5811,
+        "all_cut": 653,
+        "cost_unknown": 83
+      },
+      "landmark_trials": 5894,
+      "o1_events": 640,
+      "completed": 4030,
+      "censored": 1014,
+      "unknown": 210,
+      "o1_events_dropped_by_landmark": 160
+    },
+    "cell_on_test": "full plan (>= 300)"
+  },
+  "primary_cell": "full plan (>= 300)"
+}

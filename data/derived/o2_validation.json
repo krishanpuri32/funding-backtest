@@ -1,0 +1,216 @@
+{
+  "n": 200,
+  "tp": 89,
+  "fp": 21,
+  "fn": 6,
+  "tn": 84,
+  "precision": 0.8090909090909091,
+  "recall": 0.9368421052631579,
+  "accuracy": 0.865,
+  "stored_rule_label_agrees": true,
+  "false_positives": [
+    {
+      "nct_id": "NCT00181753",
+      "why_stopped": "State of Mass. tightened regulations for making intravenous solutions for research subjects. Study was withdrawn and no participants were enrolled.",
+      "keywords": [
+        "enrol",
+        "participants"
+      ]
+    },
+    {
+      "nct_id": "NCT00472680",
+      "why_stopped": "Funding didn't support further recruitment",
+      "keywords": [
+        "recruit"
+      ]
+    },
+    {
+      "nct_id": "NCT00609154",
+      "why_stopped": "Per source documents the study was terminated well in advance of targeted enrollment. A method for the analysis of insulin and proinsulin samples was never fully developed and validated. Study terminated upon expiration of IRB approval",
+      "keywords": [
+        "enrol"
+      ]
+    },
+    {
+      "nct_id": "NCT00723918",
+      "why_stopped": "Withdrawal of pharmaceutical support from Novartis - no participants randomized",
+      "keywords": [
+        "participants"
+      ]
+    },
+    {
+      "nct_id": "NCT00955305",
+      "why_stopped": "The study was closed to accrual due to the end of the clinical development program with cixutumumab.",
+      "keywords": [
+        "accrual"
+      ]
+    },
+    {
+      "nct_id": "NCT01013506",
+      "why_stopped": "Study was abandoned before opening to accrual. Replaced by another study.",
+      "keywords": [
+        "accrual"
+      ]
+    },
+    {
+      "nct_id": "NCT01044745",
+      "why_stopped": "Study was closed to accrual for safety related to the frequency of BK infections.",
+      "keywords": [
+        "accrual"
+      ]
+    },
+    {
+      "nct_id": "NCT01125293",
+      "why_stopped": "Per protocol, Phase II is to be terminated early if a less than 5% of the Phase II participants observe a Very Good Partial Response or Better in the first 23 participants enrolled to Phase II.",
+      "keywords": [
+        "enrol",
+        "participants"
+      ]
+    },
+    {
+      "nct_id": "NCT01137448",
+      "why_stopped": "The site did not have enough funds to complete study arrengments and start to enrolling. The site was not able to enroll subjects.",
+      "keywords": [
+        "enrol"
+      ]
+    },
+    {
+      "nct_id": "NCT01268280",
+      "why_stopped": "Closed after complete treatment of 32 patients after 21 months' recruitment.",
+      "keywords": [
+        "recruit"
+      ]
+    },
+    {
+      "nct_id": "NCT01273402",
+      "why_stopped": "A new study is being designed. No patients were enrolled.",
+      "keywords": [
+        "enrol"
+      ]
+    },
+    {
+      "nct_id": "NCT01339910",
+      "why_stopped": "Accrual terminated as recommended by the data and safety monitoring board.",
+      "keywords": [
+        "accrual"
+      ]
+    },
+    {
+      "nct_id": "NCT01434472",
+      "why_stopped": "Terminated due to insufficient funding",
+      "keywords": [
+        "insufficient"
+      ]
+    },
+    {
+      "nct_id": "NCT01697293",
+      "why_stopped": "criteria for continuing enrollment in Phase 2 portion was not met",
+      "keywords": [
+        "enrol"
+      ]
+    },
+    {
+      "nct_id": "NCT01898793",
+      "why_stopped": "Insufficient funding/staff",
+      "keywords": [
+        "insufficient"
+      ]
+    },
+    {
+      "nct_id": "NCT02037529",
+      "why_stopped": "Total enrollment number is being lowered",
+      "keywords": [
+        "enrol"
+      ]
+    },
+    {
+      "nct_id": "NCT02039219",
+      "why_stopped": "Post-marketing reports of hepatotoxicity associated with obeticholic acid emerged in June 2017, investigators temporarily halted patient recruitment June 2017.",
+      "keywords": [
+        "recruit"
+      ]
+    },
+    {
+      "nct_id": "NCT02053246",
+      "why_stopped": "Study funding ended before recruitment completed.",
+      "keywords": [
+        "recruit"
+      ]
+    },
+    {
+      "nct_id": "NCT02263898",
+      "why_stopped": "closed without enrollment",
+      "keywords": [
+        "enrol"
+      ]
+    },
+    {
+      "nct_id": "NCT02432118",
+      "why_stopped": "Insufficient resources",
+      "keywords": [
+        "insufficient"
+      ]
+    },
+    {
+      "nct_id": "NCT02578147",
+      "why_stopped": "Funding not available to continue enrollment beyond study completion date.",
+      "keywords": [
+        "enrol"
+      ]
+    }
+  ],
+  "false_negatives": [
+    {
+      "nct_id": "NCT00707473",
+      "why_stopped": "\\<75% participation"
+    },
+    {
+      "nct_id": "NCT00892268",
+      "why_stopped": "Poor accural"
+    },
+    {
+      "nct_id": "NCT01275664",
+      "why_stopped": "Study terminated due to no patient population available"
+    },
+    {
+      "nct_id": "NCT01348607",
+      "why_stopped": "Study only randomized 1 subject and was determined not feasible by DSMB"
+    },
+    {
+      "nct_id": "NCT02137252",
+      "why_stopped": "no enough patients"
+    },
+    {
+      "nct_id": "NCT02390284",
+      "why_stopped": "No patients had abnormal PERG and could not be included in the first two arms from the baseline timepoint."
+    }
+  ],
+  "o2_counts": {
+    "train": {
+      "o1_events": 776,
+      "why_stopped_blank": 105,
+      "o2_events": 351,
+      "o1_events_rule_0": 320,
+      "o2_events_landmark_n20": 166,
+      "o2_events_attributable_n20": 192
+    },
+    "test": {
+      "o1_events": 800,
+      "why_stopped_blank": 12,
+      "o2_events": 340,
+      "o1_events_rule_0": 448,
+      "o2_events_landmark_n20": 140,
+      "o2_events_attributable_n20": 173
+    }
+  },
+  "keywords": {
+    "accrual": "\\baccru\\w*",
+    "enrol": "\\benrol\\w*",
+    "recruit": "\\brecruit\\w*",
+    "participants": "\\bparticipants?\\b",
+    "slow": "\\bslow\\w*",
+    "low": "\\blow(er|est)?\\b",
+    "insufficient": "\\binsufficient\\w*",
+    "eligible": "\\b(in)?eligib\\w*"
+  }
+}

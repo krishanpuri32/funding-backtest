@@ -1,0 +1,296 @@
+{
+  "files": {
+    "aact/export": {
+      "downloaded_utc": "2026-10-19T05:20:25Z",
+      "file": "20261001_export.zip",
+      "note": "monthly static flat-file export; snapshot date pinned in fb.config",
+      "relpath": "raw/aact/20261001_export.zip",
+      "server_filename": "20261001_export.zip",
+      "server_last_modified": "Thu, 01 Oct 2026 05:19:34 GMT",
+      "sha256": "501a32fed2e16e02abcb4eec2555009ea285a077678b32c1a7672953b910bb3a",
+      "size_bytes": 2534278332,
+      "url": "https://aact.ctti-clinicaltrials.org/static/exported_files/monthly/20261001_export.zip"
+    },
+    "cpi/cpiaucsl_annual": {
+      "downloaded_utc": "2026-10-20T20:05:28Z",
+      "file": "CPIAUCSL_annual.csv",
+      "note": "FRED CPIAUCSL, annual average of monthly CPI-U (all items, US city average, SA); deflator base year in fb.config",
+      "relpath": "raw/cpi/CPIAUCSL_annual.csv",
+      "server_filename": "CPIAUCSL.csv",
+      "server_last_modified": "Wed, 14 Oct 2026 13:08:29 GMT",
+      "sha256": "0ac2bc796fbb9c62ccbf91691293ec405914a7a9cebe4c16b200a87c452e23a0",
+      "size_bytes": 1502,
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=CPIAUCSL&fq=Annual&fam=avg"
+    },
+    "exporter/clinical_studies": {
+      "downloaded_utc": "2026-10-19T18:53:31Z",
+      "file": "ClinicalStudies.csv",
+      "relpath": "raw/exporter/ClinicalStudies.csv",
+      "server_filename": "ClinicalStudies.csv",
+      "server_last_modified": "Mon, 19 Oct 2026 08:00:41 GMT",
+      "sha256": "7477c3a71ba5d6ad6d8c8d57f739d090b06f9976e15f54fb45e2731dbb24cb56",
+      "size_bytes": 5012687,
+      "url": "https://reporter.nih.gov/exporter/clinicalstudies/download"
+    },
+    "exporter/projects/FY2000": {
+      "downloaded_utc": "2026-10-19T05:27:51Z",
+      "file": "RePORTER_PRJ_C_FY2000.zip",
+      "relpath": "raw/exporter/RePORTER_PRJ_C_FY2000.zip",
+      "server_filename": "RePORTER_PRJ_C_FY2000.zip",
+      "server_last_modified": "Tue, 07 Feb 2023 14:33:26 GMT",
+      "sha256": "6998d50415343c74f62ec3d33c3a17b54562f483c502b5e27dc86c3d503782bb",
+      "size_bytes": 10974935,
+      "url": "https://reporter.nih.gov/exporter/projects/download/2000"
+    },
+    "exporter/projects/FY2001": {
+      "downloaded_utc": "2026-10-19T05:36:18Z",
+      "file": "RePORTER_PRJ_C_FY2001.zip",
+      "relpath": "raw/exporter/RePORTER_PRJ_C_FY2001.zip",
+      "server_filename": "RePORTER_PRJ_C_FY2001.zip",
+      "server_last_modified": "Tue, 07 Feb 2023 14:33:26 GMT",
+      "sha256": "c96237ae2ede2dc8e0569f76f245b8e70cc21ed28e337ac00007a1e289745e1d",
+      "size_bytes": 11228273,
+      "url": "https://reporter.nih.gov/exporter/projects/download/2001"
+    },
+    "exporter/projects/FY2002": {
+      "downloaded_utc": "2026-10-19T05:38:03Z",
+      "file": "RePORTER_PRJ_C_FY2002.zip",
+      "relpath": "raw/exporter/RePORTER_PRJ_C_FY2002.zip",
+      "server_filename": "RePORTER_PRJ_C_FY2002.zip",
+      "server_last_modified": "Tue, 07 Feb 2023 14:33:26 GMT",
+      "sha256": "b67ddd598d634eec22f38ded052eb4a9bc1a2761982b009ad5897e35721762e5",
+      "size_bytes": 11865340,
+      "url": "https://reporter.nih.gov/exporter/projects/download/2002"
+    },
+    "exporter/projects/FY2003": {
+      "downloaded_utc": "2026-10-19T05:45:49Z",
+      "file": "RePORTER_PRJ_C_FY2003.zip",
+      "relpath": "raw/exporter/RePORTER_PRJ_C_FY2003.zip",
+      "server_filename": "RePORTER_PRJ_C_FY2003.zip",
+      "server_last_modified": "Tue, 07 Feb 2023 14:33:26 GMT",
+      "sha256": "0f5656b49116b9e98add96fe59bbbf0f75785f9f6f731a44ae3824e8d40de360",
+      "size_bytes": 10290159,
+      "url": "https://reporter.nih.gov/exporter/projects/download/2003"
+    },
+    "exporter/projects/FY2004": {
+      "downloaded_utc": "2026-10-19T18:37:12Z",
+      "file": "RePORTER_PRJ_C_FY2004.zip",
+      "relpath": "raw/exporter/RePORTER_PRJ_C_FY2004.zip",
+      "server_filename": "RePORTER_PRJ_C_FY2004.zip",
+      "server_last_modified": "Tue, 07 Feb 2023 14:33:26 GMT",
+      "sha256": "702ede063e8c68275ca1c45315a730d88bb82817b108a8235f75fa8ce572585d",
+      "size_bytes": 12266031,
+      "url": "https://reporter.nih.gov/exporter/projects/download/2004"
+    },
+    "exporter/projects/FY2005": {
+      "downloaded_utc": "2026-10-19T18:39:27Z",
+      "file": "RePORTER_PRJ_C_FY2005.zip",
+      "relpath": "raw/exporter/RePORTER_PRJ_C_FY2005.zip",
+      "server_filename": "RePORTER_PRJ_C_FY2005.zip",
+      "server_last_modified": "Tue, 07 Feb 2023 14:33:26 GMT",
+      "sha256": "58dba8f358b5f172fbc28d898a64463ade636f64605dd2a500506fd7b8e8f03e",
+      "size_bytes": 8343469,
+      "url": "https://reporter.nih.gov/exporter/projects/download/2005"
+    },
+    "exporter/projects/FY2006": {
+      "downloaded_utc": "2026-10-19T18:41:18Z",
+      "file": "RePORTER_PRJ_C_FY2006.zip",
+      "relpath": "raw/exporter/RePORTER_PRJ_C_FY2006.zip",
+      "server_filename": "RePORTER_PRJ_C_FY2006.zip",
+      "server_last_modified": "Thu, 25 Jul 2024 18:23:06 GMT",
+      "sha256": "8cbee94665ac4610abb96a182d297445c42858abbf863c9d84738cb26eaa80ba",
+      "size_bytes": 11187801,
+      "url": "https://reporter.nih.gov/exporter/projects/download/2006"
+    },
+    "exporter/projects/FY2007": {
+      "downloaded_utc": "2026-10-19T18:51:43Z",
+      "file": "RePORTER_PRJ_C_FY2007.zip",
+      "relpath": "raw/exporter/RePORTER_PRJ_C_FY2007.zip",
+      "server_filename": "RePORTER_PRJ_C_FY2007.zip",
+      "server_last_modified": "Thu, 25 Jul 2024 18:40:40 GMT",
+      "sha256": "73ce739078d96459cbb86fb1129825873b943dd7d152e5fd64cb0dabb48dc616",
+      "size_bytes": 35531849,
+      "url": "https://reporter.nih.gov/exporter/projects/download/2007"
+    },
+    "exporter/projects/FY2008": {
+      "downloaded_utc": "2026-10-19T18:51:48Z",
+      "file": "RePORTER_PRJ_C_FY2008.zip",
+      "relpath": "raw/exporter/RePORTER_PRJ_C_FY2008.zip",
+      "server_filename": "RePORTER_PRJ_C_FY2008.zip",
+      "server_last_modified": "Mon, 16 Jun 2025 22:42:22 GMT",
+      "sha256": "343be1269f2b48d6455bd4e2e0db7909dba97ee5159d9c4e793bf852938d63f0",
+      "size_bytes": 38115687,
+      "url": "https://reporter.nih.gov/exporter/projects/download/2008"
+    },
+    "exporter/projects/FY2009": {
+      "downloaded_utc": "2026-10-19T18:51:54Z",
+      "file": "RePORTER_PRJ_C_FY2009.zip",
+      "relpath": "raw/exporter/RePORTER_PRJ_C_FY2009.zip",
+      "server_filename": "RePORTER_PRJ_C_FY2009.zip",
+      "server_last_modified": "Mon, 16 Jun 2025 22:25:57 GMT",
+      "sha256": "15ee21fd41933358136bbb42af62b7127d756dc53dcd0bcab60553f1d116d5a2",
+      "size_bytes": 48045139,
+      "url": "https://reporter.nih.gov/exporter/projects/download/2009"
+    },
+    "exporter/projects/FY2010": {
+      "downloaded_utc": "2026-10-19T18:51:59Z",
+      "file": "RePORTER_PRJ_C_FY2010.zip",
+      "relpath": "raw/exporter/RePORTER_PRJ_C_FY2010.zip",
+      "server_filename": "RePORTER_PRJ_C_FY2010.zip",
+      "server_last_modified": "Mon, 16 Jun 2025 22:08:04 GMT",
+      "sha256": "c80563a1856a580102a1cab72e8bebca8c37a3544735e6bd81040c4432a18314",
+      "size_bytes": 48282165,
+      "url": "https://reporter.nih.gov/exporter/projects/download/2010"
+    },
+    "exporter/projects/FY2011": {
+      "downloaded_utc": "2026-10-19T18:52:03Z",
+      "file": "RePORTER_PRJ_C_FY2011.zip",
+      "relpath": "raw/exporter/RePORTER_PRJ_C_FY2011.zip",
+      "server_filename": "RePORTER_PRJ_C_FY2011.zip",
+      "server_last_modified": "Mon, 16 Jun 2025 21:48:17 GMT",
+      "sha256": "57d8b3b470db8f38c0aed9864f27dbac98abd29c5cd3667755756eab1f1da0c8",
+      "size_bytes": 46045380,
+      "url": "https://reporter.nih.gov/exporter/projects/download/2011"
+    },
+    "exporter/projects/FY2012": {
+      "downloaded_utc": "2026-10-19T18:52:08Z",
+      "file": "RePORTER_PRJ_C_FY2012.zip",
+      "relpath": "raw/exporter/RePORTER_PRJ_C_FY2012.zip",
+      "server_filename": "RePORTER_PRJ_C_FY2012.zip",
+      "server_last_modified": "Mon, 16 Jun 2025 21:23:36 GMT",
+      "sha256": "b25fbd38aa3dcc3db8ef886e94e64fd0fc64152bebf11b4c1dc03661ba764cef",
+      "size_bytes": 48264275,
+      "url": "https://reporter.nih.gov/exporter/projects/download/2012"
+    },
+    "exporter/projects/FY2013": {
+      "downloaded_utc": "2026-10-19T18:52:15Z",
+      "file": "RePORTER_PRJ_C_FY2013.zip",
+      "relpath": "raw/exporter/RePORTER_PRJ_C_FY2013.zip",
+      "server_filename": "RePORTER_PRJ_C_FY2013.zip",
+      "server_last_modified": "Mon, 16 Jun 2025 21:05:13 GMT",
+      "sha256": "19c5da4fd55ba29db0e88e11ef56280884883b13bba875c77dcf669c299f5566",
+      "size_bytes": 32011268,
+      "url": "https://reporter.nih.gov/exporter/projects/download/2013"
+    },
+    "exporter/projects/FY2014": {
+      "downloaded_utc": "2026-10-19T18:52:19Z",
+      "file": "RePORTER_PRJ_C_FY2014.zip",
+      "relpath": "raw/exporter/RePORTER_PRJ_C_FY2014.zip",
+      "server_filename": "RePORTER_PRJ_C_FY2014.zip",
+      "server_last_modified": "Mon, 16 Jun 2025 20:47:11 GMT",
+      "sha256": "0af4ecfe3be779c53a861a6ce8920fda482dcbb5ad7c013816257d324d5e50cf",
+      "size_bytes": 50824351,
+      "url": "https://reporter.nih.gov/exporter/projects/download/2014"
+    },
+    "exporter/projects/FY2015": {
+      "downloaded_utc": "2026-10-19T18:52:25Z",
+      "file": "RePORTER_PRJ_C_FY2015.zip",
+      "relpath": "raw/exporter/RePORTER_PRJ_C_FY2015.zip",
+      "server_filename": "RePORTER_PRJ_C_FY2015.zip",
+      "server_last_modified": "Mon, 16 Jun 2025 20:24:26 GMT",
+      "sha256": "e33a90a802d307240a432c7b08b85531d28cc46ff104d04ceb68dc29d8f3c892",
+      "size_bytes": 50200881,
+      "url": "https://reporter.nih.gov/exporter/projects/download/2015"
+    },
+    "exporter/projects/FY2016": {
+      "downloaded_utc": "2026-10-19T18:52:31Z",
+      "file": "RePORTER_PRJ_C_FY2016.zip",
+      "relpath": "raw/exporter/RePORTER_PRJ_C_FY2016.zip",
+      "server_filename": "RePORTER_PRJ_C_FY2016.zip",
+      "server_last_modified": "Mon, 16 Jun 2025 18:32:40 GMT",
+      "sha256": "12467aa328175491d9e3aad6b54a884ca257ebbc39429eaaeb70cd33d2bd042e",
+      "size_bytes": 50925211,
+      "url": "https://reporter.nih.gov/exporter/projects/download/2016"
+    },
+    "exporter/projects/FY2017": {
+      "downloaded_utc": "2026-10-19T18:52:37Z",
+      "file": "RePORTER_PRJ_C_FY2017.zip",
+      "relpath": "raw/exporter/RePORTER_PRJ_C_FY2017.zip",
+      "server_filename": "RePORTER_PRJ_C_FY2017.zip",
+      "server_last_modified": "Mon, 16 Jun 2025 18:55:33 GMT",
+      "sha256": "dd52b9cb3e93f06400c5caab4e5fb4b19968b216b8db67c56e3698cb06e5fa90",
+      "size_bytes": 52876213,
+      "url": "https://reporter.nih.gov/exporter/projects/download/2017"
+    },
+    "exporter/projects/FY2018": {
+      "downloaded_utc": "2026-10-19T18:52:42Z",
+      "file": "RePORTER_PRJ_C_FY2018.zip",
+      "relpath": "raw/exporter/RePORTER_PRJ_C_FY2018.zip",
+      "server_filename": "RePORTER_PRJ_C_FY2018.zip",
+      "server_last_modified": "Mon, 16 Jun 2025 19:19:35 GMT",
+      "sha256": "d3cf60e1fa61ca34508e9550a18889a269b087b4095124e73d4a11e1b0a42e01",
+      "size_bytes": 38985379,
+      "url": "https://reporter.nih.gov/exporter/projects/download/2018"
+    },
+    "exporter/projects/FY2019": {
+      "downloaded_utc": "2026-10-19T18:52:46Z",
+      "file": "RePORTER_PRJ_C_FY2019.zip",
+      "relpath": "raw/exporter/RePORTER_PRJ_C_FY2019.zip",
+      "server_filename": "RePORTER_PRJ_C_FY2019.zip",
+      "server_last_modified": "Mon, 16 Jun 2025 19:43:30 GMT",
+      "sha256": "272f37f5d86ea1b8f3aa775c460188343626cb1a6395ade1cb6315af1e0d5ead",
+      "size_bytes": 58915943,
+      "url": "https://reporter.nih.gov/exporter/projects/download/2019"
+    },
+    "exporter/projects/FY2020": {
+      "downloaded_utc": "2026-10-19T18:52:53Z",
+      "file": "RePORTER_PRJ_C_FY2020.zip",
+      "relpath": "raw/exporter/RePORTER_PRJ_C_FY2020.zip",
+      "server_filename": "RePORTER_PRJ_C_FY2020.zip",
+      "server_last_modified": "Mon, 16 Jun 2025 16:16:42 GMT",
+      "sha256": "e0b1d49a3dfb4365580e5be82c8dd9b2a802bd131416a98945f866982bcb2e27",
+      "size_bytes": 62233194,
+      "url": "https://reporter.nih.gov/exporter/projects/download/2020"
+    },
+    "exporter/projects/FY2021": {
+      "downloaded_utc": "2026-10-19T18:52:57Z",
+      "file": "RePORTER_PRJ_C_FY2021.zip",
+      "relpath": "raw/exporter/RePORTER_PRJ_C_FY2021.zip",
+      "server_filename": "RePORTER_PRJ_C_FY2021.zip",
+      "server_last_modified": "Mon, 16 Jun 2025 16:41:23 GMT",
+      "sha256": "aa8c596afa6b2c671e270ae700bf32691e7d5094ceb1130d0af1baeccea94457",
+      "size_bytes": 63338049,
+      "url": "https://reporter.nih.gov/exporter/projects/download/2021"
+    },
+    "exporter/projects/FY2022": {
+      "downloaded_utc": "2026-10-19T18:53:03Z",
+      "file": "RePORTER_PRJ_C_FY2022.zip",
+      "relpath": "raw/exporter/RePORTER_PRJ_C_FY2022.zip",
+      "server_filename": "RePORTER_PRJ_C_FY2022.zip",
+      "server_last_modified": "Mon, 16 Jun 2025 17:05:16 GMT",
+      "sha256": "5ae867a9ba8b20c00f67b5d96fc890b29eada6331fd1a2d629b639786d3ae1f9",
+      "size_bytes": 65876034,
+      "url": "https://reporter.nih.gov/exporter/projects/download/2022"
+    },
+    "exporter/projects/FY2023": {
+      "downloaded_utc": "2026-10-19T18:53:10Z",
+      "file": "RePORTER_PRJ_C_FY2023.zip",
+      "relpath": "raw/exporter/RePORTER_PRJ_C_FY2023.zip",
+      "server_filename": "RePORTER_PRJ_C_FY2023.zip",
+      "server_last_modified": "Mon, 16 Jun 2025 17:29:41 GMT",
+      "sha256": "dac83610346e0f1d08c5ff763ae813179961faaf4f42c6908ceec407cc04629d",
+      "size_bytes": 67964676,
+      "url": "https://reporter.nih.gov/exporter/projects/download/2023"
+    },
+    "exporter/projects/FY2024": {
+      "downloaded_utc": "2026-10-19T18:53:17Z",
+      "file": "RePORTER_PRJ_C_FY2024.zip",
+      "relpath": "raw/exporter/RePORTER_PRJ_C_FY2024.zip",
+      "server_filename": "RePORTER_PRJ_C_FY2024.zip",
+      "server_last_modified": "Mon, 07 Jul 2025 18:50:32 GMT",
+      "sha256": "4a7b69091dae4ca75ad7447ed3a75f7344911d6dffd719d066102ef818547bab",
+      "size_bytes": 67364666,
+      "url": "https://reporter.nih.gov/exporter/projects/download/2024"
+    },
+    "exporter/projects/FY2025": {
+      "downloaded_utc": "2026-10-19T18:53:24Z",
+      "file": "RePORTER_PRJ_C_FY2025.zip",
+      "relpath": "raw/exporter/RePORTER_PRJ_C_FY2025.zip",
+      "server_filename": "RePORTER_PRJ_C_FY2025.zip",
+      "server_last_modified": "Thu, 09 Jul 2026 19:06:15 GMT",
+      "sha256": "feab4e89ef7e04d3a76c62a95964730a52eb77f8c8914b9dede2be72f92313d7",
+      "size_bytes": 62152129,
+      "url": "https://reporter.nih.gov/exporter/projects/download/2025"
+    }
+  }
+}

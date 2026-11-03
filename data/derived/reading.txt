@@ -1,0 +1,18 @@
+READING (plan §9, computed by fb.reading from metrics.csv; thresholds from fb.config)
+Primary ΔAUC(O1) [P+F − P, logistic, test, primary landmark population, n = 3825, events = 345]: +0.0086  (bootstrap 95 % CI +0.0014 to +0.0161)
+F₂ ΔAUC(O1) [P+F₂ − P]: +0.0053  (CI -0.0016 to +0.0122)
+P-only AUC(O1) [all trials, A3]: 0.7768  (DeLong 95 % CI 0.7592–0.7944); P AUC inside the primary population: 0.7247
+Thresholds: ΔAUC ≥ 0.03 · F₂ ΔAUC ≥ 0.02 · P-only AUC ≥ 0.7
+
+CELL: R3 — ΔAUC(O1) < 0.03 or CI includes 0, and P-only AUC ≥ 0.70 — Failure is predictable from design, not money
+STABILITY: robust — every sensitivity run lands in the same cell
+
+Sensitivity runs (same rule, same metric):
+  S1 (A4b, all attributable + F indicators): ΔAUC +0.0204 (+0.0100 to +0.0308) · F₂ ΔAUC +0.0168 (+0.0067 to +0.0269) · P-only AUC 0.7768 · n 4402 / events 436 → R3
+  A2 (withdrawn / enrollment-0 excluded): ΔAUC +0.0037 (-0.0034 to +0.0107) · F₂ ΔAUC +0.0014 (-0.0047 to +0.0074) · P-only AUC 0.7596 · n 3785 / events 305 → R3
+  A1 grid (ii) N = 50: ΔAUC +0.0098 (+0.0016 to +0.0169) · F₂ ΔAUC +0.0065 (-0.0001 to +0.0133) · P-only AUC 0.7768 · n 3891 / events 367 → R3
+  A1 grid (iii) activity rule: ΔAUC +0.0086 (+0.0016 to +0.0164) · F₂ ΔAUC +0.0048 (-0.0017 to +0.0117) · P-only AUC 0.7768 · n 3798 / events 350 → R3
+  A1 grid (i) no umbrella exclusion: ΔAUC +0.0059 (+0.0006 to +0.0109) · F₂ ΔAUC +0.0054 (+0.0014 to +0.0094) · P-only AUC 0.7768 · n 4670 / events 640 → R3
+
+Permutation null (P+F − P, 200 reps, F permuted within phase × start-year strata of the test set): 95th percentile -0.0004 vs observed +0.0086; share of null ≥ observed 0.000
+Permutation null (P+F2 − P, 200 reps, F permuted within phase × start-year strata of the test set): 95th percentile +0.0001 vs observed +0.0053; share of null ≥ observed 0.000

@@ -1,0 +1,20 @@
+{
+  "n20": {
+    "attributable_test_trials": 5056,
+    "o1_events": 436,
+    "completed": 3966,
+    "cell": "full plan (>= 300)"
+  },
+  "n50": {
+    "attributable_test_trials": 5197,
+    "o1_events": 467,
+    "completed": 4011,
+    "cell": "full plan (>= 300)"
+  },
+  "activity": {
+    "attributable_test_trials": 5096,
+    "o1_events": 442,
+    "completed": 3925,
+    "cell": "full plan (>= 300)"
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "label": "study_type = Interventional",
+      "all": 461824,
+      "train": 119852,
+      "test": 111920
+    },
+    {
+      "step": 2,
+      "label": "... with a start date",
+      "all": 458935,
+      "train": 119852,
+      "test": 111920
+    },
+    {
+      "step": 3,
+      "label": "... start 2008-01-01..2020-12-31",
+      "all": 231772,
+      "train": 119852,
+      "test": 111920
+    },
+    {
+      "step": 4,
+      "label": "... linked to >= 1 core project (Clinical Studies file)",
+      "all": 14200,
+      "train": 7558,
+      "test": 6642
+    },
+    {
+      "step": 5,
+      "label": "... with >= 1 FY row overlapping the trial window",
+      "all": 13983,
+      "train": 7436,
+      "test": 6547
+    }
+  ],
+  "notes": [
+    "enrollment at step 5 is the CURRENT record value (actual or estimated), not originally planned; planned requires record history",
+    "trial window end = primary_completion_date, else completion_date, else last_update_submitted_date (AACT has no last_known_status date column)"
+  ],
+  "aact_studies_total": 605150,
+  "study_type_values": {
+    "INTERVENTIONAL": 461824,
+    "OBSERVATIONAL": 141276,
+    "EXPANDED_ACCESS": 1068,
+    "nan": 982
+  },
+  "trial_end_source_counts": {
+    "primary_completion": 14195,
+    "last_update_submitted": 5
+  },
+  "projects_rows_missing_budget_dates": 168114,
+  "step5_no_overlap_by_trial_end_source": {
+    "primary_completion": 216,
+    "last_update_submitted": 1
+  },
+  "step6_by_overall_status": {
+    "ACTIVE_NOT_RECRUITING": {
+      "test": 702,
+      "train": 254,
+      "all": 956
+    },
+    "COMPLETED": {
+      "test": 4523,
+      "train": 6155,
+      "all": 10678
+    },
+    "ENROLLING_BY_INVITATION": {
+      "test": 19,
+      "train": 5,
+      "all": 24
+    },
+    "NOT_YET_RECRUITING": {
+      "test": 1,
+      "train": 0,
+      "all": 1
+    },
+    "RECRUITING": {
+      "test": 292,
+      "train": 34,
+      "all": 326
+    },
+    "SUSPENDED": {
+      "test": 24,
+      "train": 4,
+      "all": 28
+    },
+    "TERMINATED": {
+      "test": 576,
+      "train": 618,
+      "all": 1194
+    },
+    "UNKNOWN": {
+      "test": 210,
+      "train": 212,
+      "all": 422
+    },
+    "WITHDRAWN": {
+      "test": 200,
+      "train": 154,
+      "all": 354
+    }
+  },
+  "step6_by_status_group": {
+    "censored": {
+      "all": 1307,
+      "train": 293,
+      "test": 1014
+    },
+    "control": {
+      "all": 10678,
+      "train": 6155,
+      "test": 4523
+    },
+    "event": {
+      "all": 1576,
+      "train": 776,
+      "test": 800
+    },
+    "unknown": {
+      "all": 422,
+      "train": 212,
+      "test": 210
+    }
+  },
+  "step7_o1": {
+    "events": {
+      "all": 1576,
+      "train": 776,
+      "test": 800
+    },
+    "completed": {
+      "all": 10678,
+      "train": 6155,
+      "test": 4523
+    },
+    "o1_denominator": {
+      "all": 12254,
+      "train": 6931,
+      "test": 5323
+    },
+    "events_by_status": {
+      "SUSPENDED": {
+        "test": 24,
+        "train": 4
+      },
+      "TERMINATED": {
+        "test": 576,
+        "train": 618
+      },
+      "WITHDRAWN": {
+        "test": 200,
+        "train": 154
+      }
+    },
+    "section_11_cell": ">= 300: proceed to the full plan"
+  },
+  "step8_never_started": {
+    "withdrawn_at_step4": {
+      "all": 364,
+      "train": 159,
+      "test": 205
+    },
+    "withdrawn_enrollment0_at_step4": {
+      "all": 364,
+      "train": 159,
+      "test": 205
+    },
+    "withdrawn_enrollment0_no_overlap_fy": {
+      "all": 10,
+      "train": 5,
+      "test": 5
+    },
+    "withdrawn_enrollment0_with_overlap_fy_(still_in_step5)": {
+      "all": 354,
+      "train": 154,
+      "test": 200
+    }
+  },
+  "step9_why_stopped_nonempty_among_events": {
+    "events": {
+      "all": 1576,
+      "train": 776,
+      "test": 800
+    },
+    "with_why_stopped": {
+      "all": 1459,
+      "train": 671,
+      "test": 788
+    }
+  },
+  "step10_enrollment_actual_among_terminal": {
+    "terminal": {
+      "all": 12254,
+      "train": 6931,
+      "test": 5323
+    },
+    "enrollment_type_actual": {
+      "all": 12075,
+      "train": 6793,
+      "test": 5282
+    },
+    "enrollment_type_values_among_terminal": {
+      "ACTUAL": 12075,
+      "ESTIMATED": 176,
+      "nan": 3
+    }
+  },
+  "step5_duration_months": {
+    "all": {
+      "n": 13983,
+      "median": 42.053388090349074,
+      "q1": 24.361396303901437,
+      "q3": 62.12731006160164
+    },
+    "train": {
+      "n": 7436,
+      "median": 42.266940451745384,
+      "q1": 25.95482546201232,
+      "q3": 61.07597535934291
+    },
+    "test": {
+      "n": 6547,
+      "median": 42.02053388090349,
+      "q1": 23.342915811088297,
+      "q3": 63.06365503080082
+    }
+  },
+  "step5_enrollment_current_record": {
+    "all": {
+      "n": 13979,
+      "median": 69.0,
+      "q1": 28.0,
+      "q3": 205.5
+    },
+    "train": {
+      "n": 7432,
+      "median": 74.0,
+      "q1": 30.0,
+      "q3": 219.0
+    },
+    "test": {
+      "n": 6547,
+      "median": 63.0,
+      "q1": 25.0,
+      "q3": 192.0
+    }
+  },
+  "step5_enrollment_by_type": {
+    "ACTUAL": 12910,
+    "ESTIMATED": 1068,
+    "nan": 5
+  },
+  "step5_phase": {
+    "NA": 7494,
+    "PHASE2": 2590,
+    "PHASE1": 1464,
+    "PHASE3": 722,
+    "PHASE1/PHASE2": 631,
+    "PHASE4": 523,
+    "EARLY_PHASE1": 367,
+    "PHASE2/PHASE3": 189,
+    "nan": 3
+  },
+  "step5_start_year": {
+    "2008": 833,
+    "2009": 955,
+    "2010": 930,
+    "2011": 860,
+    "2012": 890,
+    "2013": 957,
+    "2014": 990,
+    "2015": 1021,
+    "2016": 1046,
+    "2017": 1243,
+    "2018": 1368,
+    "2019": 1542,
+    "2020": 1348
+  },
+  "step5_overlap_fy_per_trial": {
+    "n": 13983,
+    "median": 4.0,
+    "q1": 2.0,
+    "q3": 5.0
+  },
+  "step5_overlap_projects_per_trial": {
+    "n": 13983,
+    "median": 1.0,
+    "q1": 1.0,
+    "q3": 1.0
+  }
+}

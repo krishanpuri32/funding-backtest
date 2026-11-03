@@ -1,0 +1,36 @@
+# raw downloads are immutable and manifested; only the manifest is committed
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/manifest.json
+
+# derived data are regenerable and ignored, except the published results and the two inputs
+# that cannot be regenerated cheaply (registry v0 history pull; blind O2 labels)
+data/derived/*
+!data/derived/.gitkeep
+!data/derived/history_v0_cohort.csv
+!data/derived/why_stopped_sample.csv
+!data/derived/metrics.csv
+!data/derived/base_rates_*.csv
+!data/derived/base_rates_report.md
+!data/derived/reading.txt
+!data/derived/sole_trial.csv
+!data/derived/gate_attributable.json
+!data/derived/gate_landmark.json
+!data/derived/o2_validation.json
+!data/derived/cohort_stats.json
+!data/derived/coverage.json
+!data/derived/figures/
+!data/derived/phase4/
+data/derived/phase4/*
+!data/derived/phase4/test_evaluated.json
+!data/derived/exploratory/
+data/derived/exploratory/*
+!data/derived/exploratory/metrics_px.csv
+!data/derived/exploratory/reading_px.txt
+
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.DS_Store

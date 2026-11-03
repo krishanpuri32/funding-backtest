@@ -1,0 +1,432 @@
+outcome,population,spec,featureset,comparison,stratum,window,metric,value,ci_lo,ci_hi,n,n_events,note
+O1,P_only,logistic,P,,all,test,auc,0.7768133705505196,0.7592146207488804,0.7944121203521588,5323.0,800.0,DeLong 95% CI
+O1,P_only,logistic,P,,all,test,brier,0.11085166143496306,,,5323.0,800.0,
+O1,P_only,logistic,P,,all,test,log_loss,0.3657702335576646,,,5323.0,800.0,
+O1,P_only,logistic,P,,all,test,cal_slope,0.9641209081298877,,,5323.0,800.0,
+O1,P_only,logistic,P,,all,test,cal_intercept,0.4381779085505359,,,5323.0,800.0,calibration-in-the-large (offset logit p)
+O1,P_only,hgb,P,,all,test,auc,0.7637212580145921,0.7456131875296668,0.7818293284995175,5323.0,800.0,DeLong 95% CI
+O1,P_only,hgb,P,,all,test,brier,0.11061935571982477,,,5323.0,800.0,
+O1,P_only,hgb,P,,all,test,log_loss,0.3736486893185354,,,5323.0,800.0,
+O1,P_only,hgb,P,,all,test,cal_slope,0.8116286036139008,,,5323.0,800.0,
+O1,P_only,hgb,P,,all,test,cal_intercept,0.49989925453404405,,,5323.0,800.0,calibration-in-the-large (offset logit p)
+O1,P_only_A2,logistic,P,,all,test,auc,0.7596285651116516,0.7392526412068509,0.7800044890164523,5123.0,600.0,DeLong 95% CI
+O1,P_only_A2,logistic,P,,all,test,brier,0.09398411012744345,,,5123.0,600.0,
+O1,P_only_A2,logistic,P,,all,test,log_loss,0.3241814246137942,,,5123.0,600.0,
+O1,P_only_A2,logistic,P,,all,test,cal_slope,0.8480990600748334,,,5123.0,600.0,
+O1,P_only_A2,logistic,P,,all,test,cal_intercept,0.45194538329179307,,,5123.0,600.0,calibration-in-the-large (offset logit p)
+O1,P_only_A2,hgb,P,,all,test,auc,0.7431352715749134,0.7213633912503499,0.764907151899477,5123.0,600.0,DeLong 95% CI
+O1,P_only_A2,hgb,P,,all,test,brier,0.095754412160806,,,5123.0,600.0,
+O1,P_only_A2,hgb,P,,all,test,log_loss,0.33983078019542184,,,5123.0,600.0,
+O1,P_only_A2,hgb,P,,all,test,cal_slope,0.6987938003783277,,,5123.0,600.0,
+O1,P_only_A2,hgb,P,,all,test,cal_intercept,0.5771847891987273,,,5123.0,600.0,calibration-in-the-large (offset logit p)
+O1,primary,logistic,P,,all,test,auc,0.7247076461769115,0.6973909106433911,0.752024381710432,3825.0,345.0,DeLong 95% CI
+O1,primary,logistic,P,,all,test,brier,0.07838927510472761,,,3825.0,345.0,
+O1,primary,logistic,P,,all,test,log_loss,0.28550817653705807,,,3825.0,345.0,
+O1,primary,logistic,P,,all,test,cal_slope,0.8672779119793049,,,3825.0,345.0,
+O1,primary,logistic,P,,all,test,cal_intercept,0.5189534549738908,,,3825.0,345.0,calibration-in-the-large (offset logit p)
+O1,primary,logistic,P+F,,all,test,auc,0.7333000166583376,0.7060447409204696,0.7605552923962055,3825.0,345.0,DeLong 95% CI
+O1,primary,logistic,P+F,,all,test,brier,0.07795761459866722,,,3825.0,345.0,
+O1,primary,logistic,P+F,,all,test,log_loss,0.2835475086988355,,,3825.0,345.0,
+O1,primary,logistic,P+F,,all,test,cal_slope,0.8677911209264073,,,3825.0,345.0,
+O1,primary,logistic,P+F,,all,test,cal_intercept,0.527361080170859,,,3825.0,345.0,calibration-in-the-large (offset logit p)
+O1,primary,logistic,P+F2,,all,test,auc,0.7299766783275029,0.7026058539144969,0.7573475027405089,3825.0,345.0,DeLong 95% CI
+O1,primary,logistic,P+F2,,all,test,brier,0.07800626578281579,,,3825.0,345.0,
+O1,primary,logistic,P+F2,,all,test,log_loss,0.2840848992617879,,,3825.0,345.0,
+O1,primary,logistic,P+F2,,all,test,cal_slope,0.8535622694448419,,,3825.0,345.0,
+O1,primary,logistic,P+F2,,all,test,cal_intercept,0.5152840078757113,,,3825.0,345.0,calibration-in-the-large (offset logit p)
+O1,primary,logistic,P+F,P+F − P,all,test,delta_auc,0.008592370481426026,0.001449966716811682,0.016120228826424443,3825.0,345.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,logistic,P+F2,P+F2 − P,all,test,delta_auc,0.0052690321505913795,-0.0015782666982537357,0.012237641755986912,3825.0,345.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,logistic,P,,phase_group=1,test,auc,0.6545103248399952,0.5693491069587806,0.7396715427212097,218.0,49.0,DeLong 95% CI
+O1,primary,logistic,P+F,,phase_group=1,test,auc,0.6703296703296703,0.5861425461327615,0.754516794526579,218.0,49.0,DeLong 95% CI
+O1,primary,logistic,P+F2,,phase_group=1,test,auc,0.6499215070643642,0.560647885492523,0.7391951286362055,218.0,49.0,DeLong 95% CI
+O1,primary,logistic,P+F,P+F − P,phase_group=1,test,delta_auc,0.01581934548967512,-0.015382819911344612,0.04777727324480316,218.0,49.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,logistic,P+F2,P+F2 − P,phase_group=1,test,delta_auc,-0.004588817775630916,-0.02974464036734516,0.020323182527448875,218.0,49.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,logistic,P,,phase_group=2,test,auc,0.6257912823295352,0.5482398500925278,0.7033427145665425,348.0,57.0,DeLong 95% CI
+O1,primary,logistic,P+F,,phase_group=2,test,auc,0.6499668415023814,0.5758217477654201,0.7241119352393427,348.0,57.0,DeLong 95% CI
+O1,primary,logistic,P+F2,,phase_group=2,test,auc,0.6730572134804365,0.597836968054432,0.7482774589064409,348.0,57.0,DeLong 95% CI
+O1,primary,logistic,P+F,P+F − P,phase_group=2,test,delta_auc,0.024175559172846195,-0.013417279377100827,0.0626288620363259,348.0,57.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,logistic,P+F2,P+F2 − P,phase_group=2,test,delta_auc,0.047265931150901275,0.013118692714596914,0.08245010048080983,348.0,57.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,logistic,P,,phase_group=N/A,test,auc,0.6877954709280011,0.6466898175028901,0.728901124353112,2740.0,166.0,DeLong 95% CI
+O1,primary,logistic,P+F,,phase_group=N/A,test,auc,0.6951886801284392,0.6534835194137745,0.7368938408431038,2740.0,166.0,DeLong 95% CI
+O1,primary,logistic,P+F2,,phase_group=N/A,test,auc,0.6933023469168047,0.6518277431879808,0.7347769506456286,2740.0,166.0,DeLong 95% CI
+O1,primary,logistic,P+F,P+F − P,phase_group=N/A,test,delta_auc,0.007393209200438067,-0.005475843394070107,0.019539650709788522,2740.0,166.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,logistic,P+F2,P+F2 − P,phase_group=N/A,test,delta_auc,0.005506875988803617,-0.006531918941541678,0.01708262520994567,2740.0,166.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,logistic,P,,condition_group=Cardiovascular,test,auc,0.6116319444444445,0.5149930521872909,0.7082708367015981,222.0,30.0,DeLong 95% CI
+O1,primary,logistic,P+F,,condition_group=Cardiovascular,test,auc,0.6267361111111112,0.5387886534368636,0.7146835687853588,222.0,30.0,DeLong 95% CI
+O1,primary,logistic,P+F2,,condition_group=Cardiovascular,test,auc,0.6291666666666667,0.5366578347886566,0.7216754985446767,222.0,30.0,DeLong 95% CI
+O1,primary,logistic,P+F,P+F − P,condition_group=Cardiovascular,test,delta_auc,0.015104166666666696,-0.021699611209415142,0.05504610222634617,222.0,30.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,logistic,P+F2,P+F2 − P,condition_group=Cardiovascular,test,delta_auc,0.017534722222222188,-0.016808871444027627,0.051925314371912286,222.0,30.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,logistic,P,,condition_group=Mental & behavioral,test,auc,0.6676620629588155,0.6138591654986124,0.7214649604190185,1462.0,94.0,DeLong 95% CI
+O1,primary,logistic,P+F,,condition_group=Mental & behavioral,test,auc,0.665694599975115,0.6109544502008366,0.7204347497493935,1462.0,94.0,DeLong 95% CI
+O1,primary,logistic,P+F2,,condition_group=Mental & behavioral,test,auc,0.6645903322135125,0.6098736149741883,0.7193070494528366,1462.0,94.0,DeLong 95% CI
+O1,primary,logistic,P+F,P+F − P,condition_group=Mental & behavioral,test,delta_auc,-0.00196746298370043,-0.02035037838887409,0.017859699109202706,1462.0,94.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,logistic,P+F2,P+F2 − P,condition_group=Mental & behavioral,test,delta_auc,-0.0030717307453029807,-0.018923842540905997,0.015316406900973184,1462.0,94.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,logistic,P,,condition_group=Neoplasms,test,auc,0.7540630797773655,0.7011950222328489,0.8069311373218822,427.0,77.0,DeLong 95% CI
+O1,primary,logistic,P+F,,condition_group=Neoplasms,test,auc,0.7573654916512059,0.7042077612927151,0.8105232220096967,427.0,77.0,DeLong 95% CI
+O1,primary,logistic,P+F2,,condition_group=Neoplasms,test,auc,0.7619294990723562,0.7082918340842936,0.8155671640604187,427.0,77.0,DeLong 95% CI
+O1,primary,logistic,P+F,P+F − P,condition_group=Neoplasms,test,delta_auc,0.003302411873840394,-0.018848666309488345,0.02428990715512834,427.0,77.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,logistic,P+F2,P+F2 − P,condition_group=Neoplasms,test,delta_auc,0.007866419294990656,-0.009123649459783945,0.027152882201804476,427.0,77.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,logistic,P,,condition_group=No MeSH term,test,auc,0.7280123789557752,0.6559084123732843,0.800116345538266,519.0,42.0,DeLong 95% CI
+O1,primary,logistic,P+F,,condition_group=No MeSH term,test,auc,0.7413397224717979,0.6687549057370079,0.8139245392065879,519.0,42.0,DeLong 95% CI
+O1,primary,logistic,P+F2,,condition_group=No MeSH term,test,auc,0.7363981231905761,0.6646267676417105,0.8081694787394417,519.0,42.0,DeLong 95% CI
+O1,primary,logistic,P+F,P+F − P,condition_group=No MeSH term,test,delta_auc,0.013327343516022716,-0.012138011591559524,0.03579140940433116,519.0,42.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,logistic,P+F2,P+F2 − P,condition_group=No MeSH term,test,delta_auc,0.008385744234800874,-0.017774298859000157,0.03296577825898853,519.0,42.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,logistic,P+F,P+F − P,all,test,perm_null_p95,-0.0003791021156088731,,,3825.0,345.0,200 permutations of the F block within phase × start-year strata; model frozen
+O1,primary,logistic,P+F,P+F − P,all,test,perm_null_mean,-0.008132650341495897,,,3825.0,345.0,200 permutations of the F block within phase × start-year strata; model frozen
+O1,primary,logistic,P+F,P+F − P,all,test,perm_null_share_ge_observed,0.0,,,3825.0,345.0,200 permutations of the F block within phase × start-year strata; model frozen
+O1,primary,logistic,P+F2,P+F2 − P,all,test,perm_null_p95,6.525903714813474e-05,,,3825.0,345.0,200 permutations of the F block within phase × start-year strata; model frozen
+O1,primary,logistic,P+F2,P+F2 − P,all,test,perm_null_mean,-0.005925941196068613,,,3825.0,345.0,200 permutations of the F block within phase × start-year strata; model frozen
+O1,primary,logistic,P+F2,P+F2 − P,all,test,perm_null_share_ge_observed,0.0,,,3825.0,345.0,200 permutations of the F block within phase × start-year strata; model frozen
+O1,primary,hgb,P,,all,test,auc,0.7118578210894553,0.6850681412574094,0.7386475009215011,3825.0,345.0,DeLong 95% CI
+O1,primary,hgb,P,,all,test,brier,0.07903154950979581,,,3825.0,345.0,
+O1,primary,hgb,P,,all,test,log_loss,0.2910162502262951,,,3825.0,345.0,
+O1,primary,hgb,P,,all,test,cal_slope,0.7229676441537263,,,3825.0,345.0,
+O1,primary,hgb,P,,all,test,cal_intercept,0.5414423737268766,,,3825.0,345.0,calibration-in-the-large (offset logit p)
+O1,primary,hgb,P+F,,all,test,auc,0.7097976011994003,0.6813637867287687,0.7382314156700318,3825.0,345.0,DeLong 95% CI
+O1,primary,hgb,P+F,,all,test,brier,0.07906939982826512,,,3825.0,345.0,
+O1,primary,hgb,P+F,,all,test,log_loss,0.2973864293918785,,,3825.0,345.0,
+O1,primary,hgb,P+F,,all,test,cal_slope,0.6501877711000111,,,3825.0,345.0,
+O1,primary,hgb,P+F,,all,test,cal_intercept,0.6371291684856976,,,3825.0,345.0,calibration-in-the-large (offset logit p)
+O1,primary,hgb,P+F2,,all,test,auc,0.7048150924537732,0.6774523343882733,0.732177850519273,3825.0,345.0,DeLong 95% CI
+O1,primary,hgb,P+F2,,all,test,brier,0.07967794143875653,,,3825.0,345.0,
+O1,primary,hgb,P+F2,,all,test,log_loss,0.2960491602057417,,,3825.0,345.0,
+O1,primary,hgb,P+F2,,all,test,cal_slope,0.7205736417499832,,,3825.0,345.0,
+O1,primary,hgb,P+F2,,all,test,cal_intercept,0.6167715553855558,,,3825.0,345.0,calibration-in-the-large (offset logit p)
+O1,primary,hgb,P+F,P+F − P,all,test,delta_auc,-0.002060219890055004,-0.017740803539520376,0.015453081071651945,3825.0,345.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,hgb,P+F2,P+F2 − P,all,test,delta_auc,-0.007042728635682116,-0.021925697061235868,0.00834797068112871,3825.0,345.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,hgb,P,,phase_group=1,test,auc,0.6689409491607293,0.5837911665712445,0.7540907317502141,218.0,49.0,DeLong 95% CI
+O1,primary,hgb,P+F,,phase_group=1,test,auc,0.7040212534718029,0.6238499168341872,0.7841925901094186,218.0,49.0,DeLong 95% CI
+O1,primary,hgb,P+F2,,phase_group=1,test,auc,0.6383287042627702,0.5533246793556795,0.7233327291698609,218.0,49.0,DeLong 95% CI
+O1,primary,hgb,P+F,P+F − P,phase_group=1,test,delta_auc,0.03508030431107356,-0.048461752163407826,0.1226183370907534,218.0,49.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,hgb,P+F2,P+F2 − P,phase_group=1,test,delta_auc,-0.030612244897959107,-0.09871949440165341,0.03897178881829711,218.0,49.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,hgb,P,,phase_group=2,test,auc,0.6459275336106589,0.5696403773231752,0.7222146898981426,348.0,57.0,DeLong 95% CI
+O1,primary,hgb,P+F,,phase_group=2,test,auc,0.6572617109784771,0.5787582357099499,0.7357651862470043,348.0,57.0,DeLong 95% CI
+O1,primary,hgb,P+F2,,phase_group=2,test,auc,0.650207994212335,0.5690310737897983,0.7313849146348717,348.0,57.0,DeLong 95% CI
+O1,primary,hgb,P+F,P+F − P,phase_group=2,test,delta_auc,0.011334177367818166,-0.07119352885133791,0.09722649957663872,348.0,57.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,hgb,P+F2,P+F2 − P,phase_group=2,test,delta_auc,0.004280460601676084,-0.061862775413195625,0.06224790567793972,348.0,57.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,hgb,P,,phase_group=N/A,test,auc,0.6810446915868602,0.6415116402552449,0.7205777429184755,2740.0,166.0,DeLong 95% CI
+O1,primary,hgb,P+F,,phase_group=N/A,test,auc,0.6647358665430955,0.6223270683325417,0.7071446647536492,2740.0,166.0,DeLong 95% CI
+O1,primary,hgb,P+F2,,phase_group=N/A,test,auc,0.6698062646857827,0.6294912924968671,0.7101212368746984,2740.0,166.0,DeLong 95% CI
+O1,primary,hgb,P+F,P+F − P,phase_group=N/A,test,delta_auc,-0.01630882504376474,-0.0390494863192865,0.007811462158047191,2740.0,166.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,hgb,P+F2,P+F2 − P,phase_group=N/A,test,delta_auc,-0.011238426901077458,-0.03357692345236378,0.011223782395863562,2740.0,166.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,hgb,P,,condition_group=Cardiovascular,test,auc,0.5733506944444444,0.47080006672113184,0.675901322167757,222.0,30.0,DeLong 95% CI
+O1,primary,hgb,P+F,,condition_group=Cardiovascular,test,auc,0.6350694444444445,0.529532519970139,0.74060636891875,222.0,30.0,DeLong 95% CI
+O1,primary,hgb,P+F2,,condition_group=Cardiovascular,test,auc,0.6607638888888889,0.5544380097615746,0.7670897680162032,222.0,30.0,DeLong 95% CI
+O1,primary,hgb,P+F,P+F − P,condition_group=Cardiovascular,test,delta_auc,0.061718750000000044,-0.011372937861001887,0.14491773450141973,222.0,30.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,hgb,P+F2,P+F2 − P,condition_group=Cardiovascular,test,delta_auc,0.08741319444444451,0.019755438931623272,0.15395261225256915,222.0,30.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,hgb,P,,condition_group=Mental & behavioral,test,auc,0.6349850690556178,0.5852111353273013,0.6847590027839343,1462.0,94.0,DeLong 95% CI
+O1,primary,hgb,P+F,,condition_group=Mental & behavioral,test,auc,0.6098940836132886,0.5544588716322258,0.6653292955943513,1462.0,94.0,DeLong 95% CI
+O1,primary,hgb,P+F2,,condition_group=Mental & behavioral,test,auc,0.6065929451287794,0.5568347555236732,0.6563511347338855,1462.0,94.0,DeLong 95% CI
+O1,primary,hgb,P+F,P+F − P,condition_group=Mental & behavioral,test,delta_auc,-0.02509098544232924,-0.06406850950383977,0.01250422576736267,1462.0,94.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,hgb,P+F2,P+F2 − P,condition_group=Mental & behavioral,test,delta_auc,-0.02839212392683843,-0.06709225140426603,0.007429300067155796,1462.0,94.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,hgb,P,,condition_group=Neoplasms,test,auc,0.7452504638218924,0.6918133133601244,0.7986876142836604,427.0,77.0,DeLong 95% CI
+O1,primary,hgb,P+F,,condition_group=Neoplasms,test,auc,0.7532838589981448,0.6979930243140365,0.808574693682253,427.0,77.0,DeLong 95% CI
+O1,primary,hgb,P+F2,,condition_group=Neoplasms,test,auc,0.7610946196660482,0.7094724606189666,0.8127167787131298,427.0,77.0,DeLong 95% CI
+O1,primary,hgb,P+F,P+F − P,condition_group=Neoplasms,test,delta_auc,0.008033395176252345,-0.03566878733756106,0.050804004450383605,427.0,77.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,hgb,P+F2,P+F2 − P,condition_group=Neoplasms,test,delta_auc,0.01584415584415577,-0.029953771029088607,0.05859202189690772,427.0,77.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,hgb,P,,condition_group=No MeSH term,test,auc,0.738220025955875,0.6702662533879882,0.8061737985237618,519.0,42.0,DeLong 95% CI
+O1,primary,hgb,P+F,,condition_group=No MeSH term,test,auc,0.7882599580712788,0.7235999179441911,0.8529199981983665,519.0,42.0,DeLong 95% CI
+O1,primary,hgb,P+F2,,condition_group=No MeSH term,test,auc,0.7237945492662474,0.6546023376527701,0.7929867608797248,519.0,42.0,DeLong 95% CI
+O1,primary,hgb,P+F,P+F − P,condition_group=No MeSH term,test,delta_auc,0.05003993211540381,-0.006261815423695641,0.10102748381710638,519.0,42.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,hgb,P+F2,P+F2 − P,condition_group=No MeSH term,test,delta_auc,-0.01442547668962757,-0.056481259662195936,0.02531943218121604,519.0,42.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,hgb,P+F,P+F − P,all,test,perm_null_p95,-0.0036858445777111885,,,3825.0,345.0,200 permutations of the F block within phase × start-year strata; model frozen
+O1,primary,hgb,P+F,P+F − P,all,test,perm_null_mean,-0.014259818007662845,,,3825.0,345.0,200 permutations of the F block within phase × start-year strata; model frozen
+O1,primary,hgb,P+F,P+F − P,all,test,perm_null_share_ge_observed,0.045,,,3825.0,345.0,200 permutations of the F block within phase × start-year strata; model frozen
+O1,primary,hgb,P+F2,P+F2 − P,all,test,perm_null_p95,0.0019859445277360713,,,3825.0,345.0,200 permutations of the F block within phase × start-year strata; model frozen
+O1,primary,hgb,P+F2,P+F2 − P,all,test,perm_null_mean,-0.00911979843411628,,,3825.0,345.0,200 permutations of the F block within phase × start-year strata; model frozen
+O1,primary,hgb,P+F2,P+F2 − P,all,test,perm_null_share_ge_observed,0.375,,,3825.0,345.0,200 permutations of the F block within phase × start-year strata; model frozen
+O1,S1,logistic,P,,all,test,auc,0.7130592837282035,0.6880544262065361,0.7380641412498709,4402.0,436.0,DeLong 95% CI
+O1,S1,logistic,P,,all,test,brier,0.0857280627792597,,,4402.0,436.0,
+O1,S1,logistic,P,,all,test,log_loss,0.3085314508135039,,,4402.0,436.0,
+O1,S1,logistic,P,,all,test,cal_slope,0.8469378157995603,,,4402.0,436.0,
+O1,S1,logistic,P,,all,test,cal_intercept,0.5507145240963032,,,4402.0,436.0,calibration-in-the-large (offset logit p)
+O1,S1,logistic,P+F,,all,test,auc,0.7334904023650571,0.7091248127167401,0.7578559920133742,4402.0,436.0,DeLong 95% CI
+O1,S1,logistic,P+F,,all,test,brier,0.08415039853421077,,,4402.0,436.0,
+O1,S1,logistic,P+F,,all,test,log_loss,0.3015258432836417,,,4402.0,436.0,
+O1,S1,logistic,P+F,,all,test,cal_slope,0.895170915632147,,,4402.0,436.0,
+O1,S1,logistic,P+F,,all,test,cal_intercept,0.5532499495820747,,,4402.0,436.0,calibration-in-the-large (offset logit p)
+O1,S1,logistic,P+F2,,all,test,auc,0.7298817471443045,0.7053609315478957,0.7544025627407134,4402.0,436.0,DeLong 95% CI
+O1,S1,logistic,P+F2,,all,test,brier,0.08426882952226697,,,4402.0,436.0,
+O1,S1,logistic,P+F2,,all,test,log_loss,0.3024321262886494,,,4402.0,436.0,
+O1,S1,logistic,P+F2,,all,test,cal_slope,0.8758408404507095,,,4402.0,436.0,
+O1,S1,logistic,P+F2,,all,test,cal_intercept,0.5450504550937962,,,4402.0,436.0,calibration-in-the-large (offset logit p)
+O1,S1,logistic,P+F,P+F − P,all,test,delta_auc,0.02043111863685365,0.009965601263552141,0.03078687821516003,4402.0,436.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,S1,logistic,P+F2,P+F2 − P,all,test,delta_auc,0.016822463416101052,0.0067245752442438855,0.026938638246037712,4402.0,436.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,S1,hgb,P,,all,test,auc,0.7120553373398659,0.6878109564243966,0.7362997182553352,4402.0,436.0,DeLong 95% CI
+O1,S1,hgb,P,,all,test,brier,0.08549966483714748,,,4402.0,436.0,
+O1,S1,hgb,P,,all,test,log_loss,0.31186447175976345,,,4402.0,436.0,
+O1,S1,hgb,P,,all,test,cal_slope,0.6883954784423689,,,4402.0,436.0,
+O1,S1,hgb,P,,all,test,cal_intercept,0.5675204216297685,,,4402.0,436.0,calibration-in-the-large (offset logit p)
+O1,S1,hgb,P+F,,all,test,auc,0.7287271509667033,0.7032857630411555,0.754168538892251,4402.0,436.0,DeLong 95% CI
+O1,S1,hgb,P+F,,all,test,brier,0.08368575606457351,,,4402.0,436.0,
+O1,S1,hgb,P+F,,all,test,log_loss,0.30448771805575314,,,4402.0,436.0,
+O1,S1,hgb,P+F,,all,test,cal_slope,0.756438692262819,,,4402.0,436.0,
+O1,S1,hgb,P+F,,all,test,cal_intercept,0.5733470402971247,,,4402.0,436.0,calibration-in-the-large (offset logit p)
+O1,S1,hgb,P+F2,,all,test,auc,0.7221777887271162,0.69712835620517,0.7472272212490625,4402.0,436.0,DeLong 95% CI
+O1,S1,hgb,P+F2,,all,test,brier,0.08385011207138691,,,4402.0,436.0,
+O1,S1,hgb,P+F2,,all,test,log_loss,0.30341309404793526,,,4402.0,436.0,
+O1,S1,hgb,P+F2,,all,test,cal_slope,0.7959018151091607,,,4402.0,436.0,
+O1,S1,hgb,P+F2,,all,test,cal_intercept,0.5179957473517695,,,4402.0,436.0,calibration-in-the-large (offset logit p)
+O1,S1,hgb,P+F,P+F − P,all,test,delta_auc,0.01667181362683734,0.0012017045833501133,0.032183409949841396,4402.0,436.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,S1,hgb,P+F2,P+F2 − P,all,test,delta_auc,0.01012245138725032,-0.005335695577533503,0.0254930459661932,4402.0,436.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,A2,logistic,P,,all,test,auc,0.7259807801017524,0.6968164238978986,0.7551451363056062,3785.0,305.0,DeLong 95% CI
+O1,A2,logistic,P,,all,test,brier,0.07115357798859226,,,3785.0,305.0,
+O1,A2,logistic,P,,all,test,log_loss,0.26748696225007096,,,3785.0,305.0,
+O1,A2,logistic,P,,all,test,cal_slope,0.8475649769169971,,,3785.0,305.0,
+O1,A2,logistic,P,,all,test,cal_intercept,0.6346498817715419,,,3785.0,305.0,calibration-in-the-large (offset logit p)
+O1,A2,logistic,P+F,,all,test,auc,0.7296994535519126,0.7006814239698788,0.7587174831339464,3785.0,305.0,DeLong 95% CI
+O1,A2,logistic,P+F,,all,test,brier,0.07117039620618112,,,3785.0,305.0,
+O1,A2,logistic,P+F,,all,test,log_loss,0.2676303947983678,,,3785.0,305.0,
+O1,A2,logistic,P+F,,all,test,cal_slope,0.8295407445723683,,,3785.0,305.0,
+O1,A2,logistic,P+F,,all,test,cal_intercept,0.6484438194771519,,,3785.0,305.0,calibration-in-the-large (offset logit p)
+O1,A2,logistic,P+F2,,all,test,auc,0.7273525532315809,0.6982413055198199,0.7564638009433419,3785.0,305.0,DeLong 95% CI
+O1,A2,logistic,P+F2,,all,test,brier,0.07101818972452081,,,3785.0,305.0,
+O1,A2,logistic,P+F2,,all,test,log_loss,0.2670706050630799,,,3785.0,305.0,
+O1,A2,logistic,P+F2,,all,test,cal_slope,0.8258825032264455,,,3785.0,305.0,
+O1,A2,logistic,P+F2,,all,test,cal_intercept,0.620993867471669,,,3785.0,305.0,calibration-in-the-large (offset logit p)
+O1,A2,logistic,P+F,P+F − P,all,test,delta_auc,0.0037186734501601926,-0.003448419520392146,0.01074530487669076,3785.0,305.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,A2,logistic,P+F2,P+F2 − P,all,test,delta_auc,0.0013717731298285019,-0.004745746549839178,0.007399538118458375,3785.0,305.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,A2,hgb,P,,all,test,auc,0.7095025438100622,0.6806002292714224,0.738404858348702,3785.0,305.0,DeLong 95% CI
+O1,A2,hgb,P,,all,test,brier,0.07270269780091361,,,3785.0,305.0,
+O1,A2,hgb,P,,all,test,log_loss,0.2748152095127158,,,3785.0,305.0,
+O1,A2,hgb,P,,all,test,cal_slope,0.7083448892696409,,,3785.0,305.0,
+O1,A2,hgb,P,,all,test,cal_intercept,0.61215613283164,,,3785.0,305.0,calibration-in-the-large (offset logit p)
+O1,A2,hgb,P+F,,all,test,auc,0.7132249858677219,0.6837800856471916,0.7426698860882521,3785.0,305.0,DeLong 95% CI
+O1,A2,hgb,P+F,,all,test,brier,0.07209371698952921,,,3785.0,305.0,
+O1,A2,hgb,P+F,,all,test,log_loss,0.2732731087001804,,,3785.0,305.0,
+O1,A2,hgb,P+F,,all,test,cal_slope,0.7262535473943783,,,3785.0,305.0,
+O1,A2,hgb,P+F,,all,test,cal_intercept,0.6201967182110341,,,3785.0,305.0,calibration-in-the-large (offset logit p)
+O1,A2,hgb,P+F2,,all,test,auc,0.7042995100810251,0.6747114650939793,0.7338875550680709,3785.0,305.0,DeLong 95% CI
+O1,A2,hgb,P+F2,,all,test,brier,0.07294100252238699,,,3785.0,305.0,
+O1,A2,hgb,P+F2,,all,test,log_loss,0.2781828412043109,,,3785.0,305.0,
+O1,A2,hgb,P+F2,,all,test,cal_slope,0.710561501735296,,,3785.0,305.0,
+O1,A2,hgb,P+F2,,all,test,cal_intercept,0.6929889099591563,,,3785.0,305.0,calibration-in-the-large (offset logit p)
+O1,A2,hgb,P+F,P+F − P,all,test,delta_auc,0.003722442057659703,-0.015598953976459004,0.021325358442106448,3785.0,305.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,A2,hgb,P+F2,P+F2 − P,all,test,delta_auc,-0.0052030337290370765,-0.021017403857740116,0.011720209550283094,3785.0,305.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,N50,logistic,P,,all,test,auc,0.7341920872676887,0.7076919069818955,0.7606922675534818,3891.0,367.0,DeLong 95% CI
+O1,N50,logistic,P,,all,test,brier,0.08054130145033157,,,3891.0,367.0,
+O1,N50,logistic,P,,all,test,log_loss,0.28983731556702863,,,3891.0,367.0,
+O1,N50,logistic,P,,all,test,cal_slope,0.8961023780238749,,,3891.0,367.0,
+O1,N50,logistic,P,,all,test,cal_intercept,0.48747809696455335,,,3891.0,367.0,calibration-in-the-large (offset logit p)
+O1,N50,logistic,P+F,,all,test,auc,0.7439944699947731,0.7175680133684641,0.7704209266210822,3891.0,367.0,DeLong 95% CI
+O1,N50,logistic,P+F,,all,test,brier,0.07971044156023811,,,3891.0,367.0,
+O1,N50,logistic,P+F,,all,test,log_loss,0.2866637555832723,,,3891.0,367.0,
+O1,N50,logistic,P+F,,all,test,cal_slope,0.8965013461869353,,,3891.0,367.0,
+O1,N50,logistic,P+F,,all,test,cal_intercept,0.4927215099879337,,,3891.0,367.0,calibration-in-the-large (offset logit p)
+O1,N50,logistic,P+F2,,all,test,auc,0.7406480126930322,0.7142758999136116,0.7670201254724527,3891.0,367.0,DeLong 95% CI
+O1,N50,logistic,P+F2,,all,test,brier,0.08001898425336959,,,3891.0,367.0,
+O1,N50,logistic,P+F2,,all,test,log_loss,0.28756318789368224,,,3891.0,367.0,
+O1,N50,logistic,P+F2,,all,test,cal_slope,0.88900179999587,,,3891.0,367.0,
+O1,N50,logistic,P+F2,,all,test,cal_intercept,0.47616545152802464,,,3891.0,367.0,calibration-in-the-large (offset logit p)
+O1,N50,logistic,P+F,P+F − P,all,test,delta_auc,0.009802382727084447,0.0016485775628480193,0.01686647018410565,3891.0,367.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,N50,logistic,P+F2,P+F2 − P,all,test,delta_auc,0.006455925425343456,-8.769208093655198e-05,0.013297164558178039,3891.0,367.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,N50,hgb,P,,all,test,auc,0.7215052408243048,0.6944919491230135,0.7485185325255961,3891.0,367.0,DeLong 95% CI
+O1,N50,hgb,P,,all,test,brier,0.08142863186417428,,,3891.0,367.0,
+O1,N50,hgb,P,,all,test,log_loss,0.29393864385808466,,,3891.0,367.0,
+O1,N50,hgb,P,,all,test,cal_slope,0.8371847554234569,,,3891.0,367.0,
+O1,N50,hgb,P,,all,test,cal_intercept,0.4720501889970825,,,3891.0,367.0,calibration-in-the-large (offset logit p)
+O1,N50,hgb,P+F,,all,test,auc,0.7247639386750875,0.6972695330344061,0.7522583443157689,3891.0,367.0,DeLong 95% CI
+O1,N50,hgb,P+F,,all,test,brier,0.07969315099520419,,,3891.0,367.0,
+O1,N50,hgb,P+F,,all,test,log_loss,0.2897552517330997,,,3891.0,367.0,
+O1,N50,hgb,P+F,,all,test,cal_slope,0.8313100381144056,,,3891.0,367.0,
+O1,N50,hgb,P+F,,all,test,cal_intercept,0.4478152603611912,,,3891.0,367.0,calibration-in-the-large (offset logit p)
+O1,N50,hgb,P+F2,,all,test,auc,0.7216625892672125,0.6942524437484433,0.7490727347859817,3891.0,367.0,DeLong 95% CI
+O1,N50,hgb,P+F2,,all,test,brier,0.08061651040674103,,,3891.0,367.0,
+O1,N50,hgb,P+F2,,all,test,log_loss,0.2937388391947681,,,3891.0,367.0,
+O1,N50,hgb,P+F2,,all,test,cal_slope,0.7842672417483724,,,3891.0,367.0,
+O1,N50,hgb,P+F2,,all,test,cal_intercept,0.48427533056087574,,,3891.0,367.0,calibration-in-the-large (offset logit p)
+O1,N50,hgb,P+F,P+F − P,all,test,delta_auc,0.003258697850782699,-0.009353333953830145,0.015079579297750043,3891.0,367.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,N50,hgb,P+F2,P+F2 − P,all,test,delta_auc,0.0001573484429077121,-0.010478256845877018,0.01065187048124468,3891.0,367.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,activity,logistic,P,,all,test,auc,0.7319120815379516,0.7046982216531806,0.7591259414227226,3798.0,350.0,DeLong 95% CI
+O1,activity,logistic,P,,all,test,brier,0.07943979135213633,,,3798.0,350.0,
+O1,activity,logistic,P,,all,test,log_loss,0.28809391925122074,,,3798.0,350.0,
+O1,activity,logistic,P,,all,test,cal_slope,0.9017088020141141,,,3798.0,350.0,
+O1,activity,logistic,P,,all,test,cal_intercept,0.5496305501978893,,,3798.0,350.0,calibration-in-the-large (offset logit p)
+O1,activity,logistic,P+F,,all,test,auc,0.740554358634405,0.7133523530770971,0.7677563641917129,3798.0,350.0,DeLong 95% CI
+O1,activity,logistic,P+F,,all,test,brier,0.07876561465205514,,,3798.0,350.0,
+O1,activity,logistic,P+F,,all,test,log_loss,0.285227020393953,,,3798.0,350.0,
+O1,activity,logistic,P+F,,all,test,cal_slope,0.9024469803429291,,,3798.0,350.0,
+O1,activity,logistic,P+F,,all,test,cal_intercept,0.5460727301895067,,,3798.0,350.0,calibration-in-the-large (offset logit p)
+O1,activity,logistic,P+F2,,all,test,auc,0.7367119655286709,0.7095537509566886,0.7638701801006532,3798.0,350.0,DeLong 95% CI
+O1,activity,logistic,P+F2,,all,test,brier,0.0791333543671766,,,3798.0,350.0,
+O1,activity,logistic,P+F2,,all,test,log_loss,0.28644310141690754,,,3798.0,350.0,
+O1,activity,logistic,P+F2,,all,test,cal_slope,0.8839040749179027,,,3798.0,350.0,
+O1,activity,logistic,P+F2,,all,test,cal_intercept,0.5321098301455961,,,3798.0,350.0,calibration-in-the-large (offset logit p)
+O1,activity,logistic,P+F,P+F − P,all,test,delta_auc,0.008642277096453377,0.0015606594728951985,0.01638425096694468,3798.0,350.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,activity,logistic,P+F2,P+F2 − P,all,test,delta_auc,0.004799883990719289,-0.0016799341616239583,0.011718637691898137,3798.0,350.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,activity,hgb,P,,all,test,auc,0.7161803944315546,0.6897802196854507,0.7425805691776585,3798.0,350.0,DeLong 95% CI
+O1,activity,hgb,P,,all,test,brier,0.08067312542111602,,,3798.0,350.0,
+O1,activity,hgb,P,,all,test,log_loss,0.29466036778060206,,,3798.0,350.0,
+O1,activity,hgb,P,,all,test,cal_slope,0.7300537265424488,,,3798.0,350.0,
+O1,activity,hgb,P,,all,test,cal_intercept,0.5236677031221149,,,3798.0,350.0,calibration-in-the-large (offset logit p)
+O1,activity,hgb,P+F,,all,test,auc,0.72508079217766,0.6968609458933697,0.7533006384619503,3798.0,350.0,DeLong 95% CI
+O1,activity,hgb,P+F,,all,test,brier,0.07972840880650432,,,3798.0,350.0,
+O1,activity,hgb,P+F,,all,test,log_loss,0.29423699606540016,,,3798.0,350.0,
+O1,activity,hgb,P+F,,all,test,cal_slope,0.7531417933275056,,,3798.0,350.0,
+O1,activity,hgb,P+F,,all,test,cal_intercept,0.6249670797685722,,,3798.0,350.0,calibration-in-the-large (offset logit p)
+O1,activity,hgb,P+F2,,all,test,auc,0.7172886973815048,0.6886389234739722,0.7459384712890375,3798.0,350.0,DeLong 95% CI
+O1,activity,hgb,P+F2,,all,test,brier,0.07973179075939343,,,3798.0,350.0,
+O1,activity,hgb,P+F2,,all,test,log_loss,0.2961806836040009,,,3798.0,350.0,
+O1,activity,hgb,P+F2,,all,test,cal_slope,0.6897047701236476,,,3798.0,350.0,
+O1,activity,hgb,P+F2,,all,test,cal_intercept,0.5729895125674338,,,3798.0,350.0,calibration-in-the-large (offset logit p)
+O1,activity,hgb,P+F,P+F − P,all,test,delta_auc,0.008900397746105404,-0.007532814987849164,0.027285390764574244,3798.0,350.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,activity,hgb,P+F2,P+F2 − P,all,test,delta_auc,0.001108302949950235,-0.015386557794573591,0.020096635739202912,3798.0,350.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,no_umbrella,logistic,P,,all,test,auc,0.7784501008064516,0.7594253606537456,0.7974748409591577,4670.0,640.0,DeLong 95% CI
+O1,no_umbrella,logistic,P,,all,test,brier,0.10392099819042137,,,4670.0,640.0,
+O1,no_umbrella,logistic,P,,all,test,log_loss,0.34548855443553517,,,4670.0,640.0,
+O1,no_umbrella,logistic,P,,all,test,cal_slope,0.9527053211347801,,,4670.0,640.0,
+O1,no_umbrella,logistic,P,,all,test,cal_intercept,0.4018847026824926,,,4670.0,640.0,calibration-in-the-large (offset logit p)
+O1,no_umbrella,logistic,P+F,,all,test,auc,0.7843497983870967,0.7654607493220902,0.8032388474521033,4670.0,640.0,DeLong 95% CI
+O1,no_umbrella,logistic,P+F,,all,test,brier,0.10226879754147525,,,4670.0,640.0,
+O1,no_umbrella,logistic,P+F,,all,test,log_loss,0.34120424959319123,,,4670.0,640.0,
+O1,no_umbrella,logistic,P+F,,all,test,cal_slope,0.9393089183485045,,,4670.0,640.0,
+O1,no_umbrella,logistic,P+F,,all,test,cal_intercept,0.390984083736217,,,4670.0,640.0,calibration-in-the-large (offset logit p)
+O1,no_umbrella,logistic,P+F2,,all,test,auc,0.7838449906947891,0.7649955766522968,0.8026944047372814,4670.0,640.0,DeLong 95% CI
+O1,no_umbrella,logistic,P+F2,,all,test,brier,0.103334810210506,,,4670.0,640.0,
+O1,no_umbrella,logistic,P+F2,,all,test,log_loss,0.343361678368641,,,4670.0,640.0,
+O1,no_umbrella,logistic,P+F2,,all,test,cal_slope,0.9849980362612489,,,4670.0,640.0,
+O1,no_umbrella,logistic,P+F2,,all,test,cal_intercept,0.43042617372991443,,,4670.0,640.0,calibration-in-the-large (offset logit p)
+O1,no_umbrella,logistic,P+F,P+F − P,all,test,delta_auc,0.005899697580645125,0.0006347847402416675,0.01090024856634157,4670.0,640.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,no_umbrella,logistic,P+F2,P+F2 − P,all,test,delta_auc,0.005394889888337473,0.0014433270667558536,0.00944944643589313,4670.0,640.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,no_umbrella,hgb,P,,all,test,auc,0.7742276674937966,0.7549563870149065,0.7934989479726866,4670.0,640.0,DeLong 95% CI
+O1,no_umbrella,hgb,P,,all,test,brier,0.1040503303579883,,,4670.0,640.0,
+O1,no_umbrella,hgb,P,,all,test,log_loss,0.3497675019007003,,,4670.0,640.0,
+O1,no_umbrella,hgb,P,,all,test,cal_slope,0.8489698383811576,,,4670.0,640.0,
+O1,no_umbrella,hgb,P,,all,test,cal_intercept,0.4711938932524534,,,4670.0,640.0,calibration-in-the-large (offset logit p)
+O1,no_umbrella,hgb,P+F,,all,test,auc,0.7726368641439206,0.7531573823193529,0.7921163459684883,4670.0,640.0,DeLong 95% CI
+O1,no_umbrella,hgb,P+F,,all,test,brier,0.10258071883204846,,,4670.0,640.0,
+O1,no_umbrella,hgb,P+F,,all,test,log_loss,0.3476994872477424,,,4670.0,640.0,
+O1,no_umbrella,hgb,P+F,,all,test,cal_slope,0.8190152748555702,,,4670.0,640.0,
+O1,no_umbrella,hgb,P+F,,all,test,cal_intercept,0.4270047919413572,,,4670.0,640.0,calibration-in-the-large (offset logit p)
+O1,no_umbrella,hgb,P+F2,,all,test,auc,0.7744246277915633,0.7552112397800741,0.7936380158030525,4670.0,640.0,DeLong 95% CI
+O1,no_umbrella,hgb,P+F2,,all,test,brier,0.10315240455340217,,,4670.0,640.0,
+O1,no_umbrella,hgb,P+F2,,all,test,log_loss,0.34838470659307513,,,4670.0,640.0,
+O1,no_umbrella,hgb,P+F2,,all,test,cal_slope,0.8216401239909834,,,4670.0,640.0,
+O1,no_umbrella,hgb,P+F2,,all,test,cal_intercept,0.4486011079990655,,,4670.0,640.0,calibration-in-the-large (offset logit p)
+O1,no_umbrella,hgb,P+F,P+F − P,all,test,delta_auc,-0.0015908033498759355,-0.01067425255371475,0.008222697528772518,4670.0,640.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O1,no_umbrella,hgb,P+F2,P+F2 − P,all,test,delta_auc,0.00019696029776672397,-0.008748660664435508,0.009615487693622709,4670.0,640.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O2,P_only,logistic,P,,all,test,auc,0.7587181711938237,0.7332043705664583,0.7842319718211891,5323.0,340.0,DeLong 95% CI
+O2,P_only,logistic,P,,all,test,brier,0.05680564161477022,,,5323.0,340.0,
+O2,P_only,logistic,P,,all,test,log_loss,0.21531954352764346,,,5323.0,340.0,
+O2,P_only,logistic,P,,all,test,cal_slope,0.9498610179653608,,,5323.0,340.0,
+O2,P_only,logistic,P,,all,test,cal_intercept,0.40688616704642094,,,5323.0,340.0,calibration-in-the-large (offset logit p)
+O2,P_only,hgb,P,,all,test,auc,0.7395515340392629,0.7134842794197422,0.7656187886587835,5323.0,340.0,DeLong 95% CI
+O2,P_only,hgb,P,,all,test,brier,0.05751487583709043,,,5323.0,340.0,
+O2,P_only,hgb,P,,all,test,log_loss,0.2201905083710762,,,5323.0,340.0,
+O2,P_only,hgb,P,,all,test,cal_slope,0.8302879888451824,,,5323.0,340.0,
+O2,P_only,hgb,P,,all,test,cal_intercept,0.3637246484053135,,,5323.0,340.0,calibration-in-the-large (offset logit p)
+O2,primary,logistic,P,,all,test,auc,0.7392207792207792,0.7008540559296995,0.7775875025118589,3825.0,140.0,DeLong 95% CI
+O2,primary,logistic,P,,all,test,brier,0.03440876106456248,,,3825.0,140.0,
+O2,primary,logistic,P,,all,test,log_loss,0.14568513957001986,,,3825.0,140.0,
+O2,primary,logistic,P,,all,test,cal_slope,0.9508379959351566,,,3825.0,140.0,
+O2,primary,logistic,P,,all,test,cal_intercept,0.28928681032000353,,,3825.0,140.0,calibration-in-the-large (offset logit p)
+O2,primary,logistic,P+F,,all,test,auc,0.7442217484008529,0.7051457969631058,0.7832976998386,3825.0,140.0,DeLong 95% CI
+O2,primary,logistic,P+F,,all,test,brier,0.034295937086105475,,,3825.0,140.0,
+O2,primary,logistic,P+F,,all,test,log_loss,0.14468013985097847,,,3825.0,140.0,
+O2,primary,logistic,P+F,,all,test,cal_slope,0.9583228446265747,,,3825.0,140.0,
+O2,primary,logistic,P+F,,all,test,cal_intercept,0.29119142405281806,,,3825.0,140.0,calibration-in-the-large (offset logit p)
+O2,primary,logistic,P+F2,,all,test,auc,0.7388776894747044,0.6991954620685525,0.7785599168808564,3825.0,140.0,DeLong 95% CI
+O2,primary,logistic,P+F2,,all,test,brier,0.03428038260791842,,,3825.0,140.0,
+O2,primary,logistic,P+F2,,all,test,log_loss,0.14508743308686292,,,3825.0,140.0,
+O2,primary,logistic,P+F2,,all,test,cal_slope,0.933789512352375,,,3825.0,140.0,
+O2,primary,logistic,P+F2,,all,test,cal_intercept,0.28303062334067886,,,3825.0,140.0,calibration-in-the-large (offset logit p)
+O2,primary,logistic,P+F,P+F − P,all,test,delta_auc,0.0050009691800736444,-0.004435539605436115,0.015007828173152818,3825.0,140.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O2,primary,logistic,P+F2,P+F2 − P,all,test,delta_auc,-0.00034308974607477616,-0.01300807656382863,0.011437877189858293,3825.0,140.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O2,primary,hgb,P,,all,test,auc,0.7017309556115526,0.6594930560841611,0.7439688551389442,3825.0,140.0,DeLong 95% CI
+O2,primary,hgb,P,,all,test,brier,0.03486913810168123,,,3825.0,140.0,
+O2,primary,hgb,P,,all,test,log_loss,0.15034978165363858,,,3825.0,140.0,
+O2,primary,hgb,P,,all,test,cal_slope,0.7398378002167885,,,3825.0,140.0,
+O2,primary,hgb,P,,all,test,cal_intercept,0.21097834805796106,,,3825.0,140.0,calibration-in-the-large (offset logit p)
+O2,primary,hgb,P+F,,all,test,auc,0.7312037216514828,0.6910263535025173,0.7713810898004484,3825.0,140.0,DeLong 95% CI
+O2,primary,hgb,P+F,,all,test,brier,0.035242725930689243,,,3825.0,140.0,
+O2,primary,hgb,P+F,,all,test,log_loss,0.1496525819138731,,,3825.0,140.0,
+O2,primary,hgb,P+F,,all,test,cal_slope,0.7281161184467365,,,3825.0,140.0,
+O2,primary,hgb,P+F,,all,test,cal_intercept,0.23681167216824411,,,3825.0,140.0,calibration-in-the-large (offset logit p)
+O2,primary,hgb,P+F2,,all,test,auc,0.7088854429152937,0.6684819701470496,0.7492889156835377,3825.0,140.0,DeLong 95% CI
+O2,primary,hgb,P+F2,,all,test,brier,0.0350168928130156,,,3825.0,140.0,
+O2,primary,hgb,P+F2,,all,test,log_loss,0.15200079835035163,,,3825.0,140.0,
+O2,primary,hgb,P+F2,,all,test,cal_slope,0.6668593780540232,,,3825.0,140.0,
+O2,primary,hgb,P+F2,,all,test,cal_intercept,0.3307476360792139,,,3825.0,140.0,calibration-in-the-large (offset logit p)
+O2,primary,hgb,P+F,P+F − P,all,test,delta_auc,0.02947276603993021,0.0009183610647587382,0.058006017685655914,3825.0,140.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O2,primary,hgb,P+F2,P+F2 − P,all,test,delta_auc,0.0071544873037410195,-0.023390202364650156,0.03727789866447077,3825.0,140.0,"paired bootstrap 1000 resamples, percentile 95% CI"
+O3,primary,ridge,P,,all,test,rmse,0.8196759257164943,,,3659.0,,
+O3,primary,ridge,P,,all,test,r2,0.0365172651244674,,,3659.0,,
+O3,primary,ridge,P+F,,all,test,rmse,0.806993194817429,,,3659.0,,
+O3,primary,ridge,P+F,,all,test,r2,0.0661022653700799,,,3659.0,,
+O3,primary,ridge,P+F,P+F − P,all,test,delta_r2,0.029585000245612503,0.01910027687980285,0.040196081597707635,3659.0,,paired bootstrap 1000 resamples
+O3,primary,ridge,P+F,P+F − P,all,test,delta_rmse,-0.012682730899065242,-0.017773409030142052,-0.00794755949923232,3659.0,,paired bootstrap 1000 resamples
+O3,primary,hgb,P,,all,test,rmse,0.815267841268594,,,3659.0,,
+O3,primary,hgb,P,,all,test,r2,0.04685230848177324,,,3659.0,,
+O3,primary,hgb,P+F,,all,test,rmse,0.8075276583627585,,,3659.0,,
+O3,primary,hgb,P+F,,all,test,r2,0.06486483342328075,,,3659.0,,
+O3,primary,hgb,P+F,P+F − P,all,test,delta_r2,0.018012524941507513,-0.0025096435034724965,0.0401067447654807,3659.0,,paired bootstrap 1000 resamples
+O3,primary,hgb,P+F,P+F − P,all,test,delta_rmse,-0.0077401829058354465,-0.01761790609331241,0.0010694413598517686,3659.0,,paired bootstrap 1000 resamples
+O4,primary,ridge,P,,all,test,rmse,17.188651966997398,,,3665.0,,
+O4,primary,ridge,P,,all,test,r2,0.06858087333410545,,,3665.0,,
+O4,primary,ridge,P+F,,all,test,rmse,11.593914508118072,,,3665.0,,
+O4,primary,ridge,P+F,,all,test,r2,0.5762382993469997,,,3665.0,,
+O4,primary,ridge,P+F,P+F − P,all,test,delta_r2,0.5076574260128942,0.4732340386762339,0.5420651808612592,3665.0,,paired bootstrap 1000 resamples
+O4,primary,ridge,P+F,P+F − P,all,test,delta_rmse,-5.594737458879326,-6.1179406788712205,-5.082290541112493,3665.0,,paired bootstrap 1000 resamples
+O4,primary,hgb,P,,all,test,rmse,16.931669342287048,,,3665.0,,
+O4,primary,hgb,P,,all,test,r2,0.09622344144472195,,,3665.0,,
+O4,primary,hgb,P+F,,all,test,rmse,10.375073880422507,,,3665.0,,
+O4,primary,hgb,P+F,,all,test,r2,0.6606530801495277,,,3665.0,,
+O4,primary,hgb,P+F,P+F − P,all,test,delta_r2,0.5644296387048058,0.5231727606854043,0.6050939883654682,3665.0,,paired bootstrap 1000 resamples
+O4,primary,hgb,P+F,P+F − P,all,test,delta_rmse,-6.556595461864541,-7.124534424965717,-6.009934573379445,3665.0,,paired bootstrap 1000 resamples
+O5,hazard,logistic,P,,all,test,td_auc_12m,0.6921742691053975,0.6419106315800296,0.7424379066307654,4868.0,91.0,cumulative/dynamic: cases terminated by h; controls all others (no censoring before 36 m)
+O5,hazard,logistic,P,,all,test,td_brier_12m,0.018207954886347986,,,4868.0,91.0,
+O5,hazard,logistic,P+F,,all,test,td_auc_12m,0.6694739215149514,0.6190037293039815,0.7199441137259214,4868.0,91.0,cumulative/dynamic: cases terminated by h; controls all others (no censoring before 36 m)
+O5,hazard,logistic,P+F,,all,test,td_brier_12m,0.01829198457310543,,,4868.0,91.0,
+O5,hazard,logistic,P+F,P+F − P,all,test,delta_td_auc_12m,-0.022700347590446035,-0.03211600406598704,-0.013480121762241677,4868.0,91.0,paired bootstrap 1000 resamples of trials
+O5,hazard,logistic,P,,all,test,td_auc_24m,0.6888147064203403,0.6523116590379755,0.725317753802705,4868.0,182.0,cumulative/dynamic: cases terminated by h; controls all others (no censoring before 36 m)
+O5,hazard,logistic,P,,all,test,td_brier_24m,0.03555659763500405,,,4868.0,182.0,
+O5,hazard,logistic,P+F,,all,test,td_auc_24m,0.6556717929957366,0.6179034407052243,0.693440145286249,4868.0,182.0,cumulative/dynamic: cases terminated by h; controls all others (no censoring before 36 m)
+O5,hazard,logistic,P+F,,all,test,td_brier_24m,0.03588049799314138,,,4868.0,182.0,
+O5,hazard,logistic,P+F,P+F − P,all,test,delta_td_auc_24m,-0.033142913424603626,-0.042917211224313676,-0.023548306522697043,4868.0,182.0,paired bootstrap 1000 resamples of trials
+O5,hazard,logistic,P,,all,test,td_auc_36m,0.7004153424473255,0.6709924513694151,0.7298382335252359,4868.0,258.0,cumulative/dynamic: cases terminated by h; controls all others (no censoring before 36 m)
+O5,hazard,logistic,P,,all,test,td_brier_36m,0.049369163410289615,,,4868.0,258.0,
+O5,hazard,logistic,P+F,,all,test,td_auc_36m,0.6704644436597219,0.6395722501263866,0.7013566371930572,4868.0,258.0,cumulative/dynamic: cases terminated by h; controls all others (no censoring before 36 m)
+O5,hazard,logistic,P+F,,all,test,td_brier_36m,0.04992771510134978,,,4868.0,258.0,
+O5,hazard,logistic,P+F,P+F − P,all,test,delta_td_auc_36m,-0.029950898787603597,-0.04005703840425393,-0.019214017588109852,4868.0,258.0,paired bootstrap 1000 resamples of trials
+O1,primary,logistic,P+F,P+F − P,all,train,lr_chi2,56.30841919602881,,,,,"unpenalised MLE, nested pair, training window"
+O1,primary,logistic,P+F,P+F − P,all,train,lr_df,11.0,,,,,"unpenalised MLE, nested pair, training window"
+O1,primary,logistic,P+F,P+F − P,all,train,lr_p,4.459925258595653e-08,,,,,"unpenalised MLE, nested pair, training window"
+O1,primary,logistic,P+F2,P+F2 − P,all,train,lr_chi2,38.71895394143212,,,,,"unpenalised MLE, nested pair, training window"
+O1,primary,logistic,P+F2,P+F2 − P,all,train,lr_df,10.0,,,,,"unpenalised MLE, nested pair, training window"
+O1,primary,logistic,P+F2,P+F2 − P,all,train,lr_p,2.8432207442573e-05,,,,,"unpenalised MLE, nested pair, training window"
+O1,S1,logistic,P+F,P+F − P,all,train,lr_chi2,90.7921604354151,,,,,"unpenalised MLE, nested pair, training window"
+O1,S1,logistic,P+F,P+F − P,all,train,lr_df,22.0,,,,,"unpenalised MLE, nested pair, training window"
+O1,S1,logistic,P+F,P+F − P,all,train,lr_p,2.511809322928658e-10,,,,,"unpenalised MLE, nested pair, training window"
+O1,S1,logistic,P+F2,P+F2 − P,all,train,lr_chi2,68.22664126718792,,,,,"unpenalised MLE, nested pair, training window"
+O1,S1,logistic,P+F2,P+F2 − P,all,train,lr_df,20.0,,,,,"unpenalised MLE, nested pair, training window"
+O1,S1,logistic,P+F2,P+F2 − P,all,train,lr_p,3.537962586862518e-07,,,,,"unpenalised MLE, nested pair, training window"
+O1,A2,logistic,P+F,P+F − P,all,train,lr_chi2,51.55087504559879,,,,,"unpenalised MLE, nested pair, training window"
+O1,A2,logistic,P+F,P+F − P,all,train,lr_df,11.0,,,,,"unpenalised MLE, nested pair, training window"
+O1,A2,logistic,P+F,P+F − P,all,train,lr_p,3.287641509949288e-07,,,,,"unpenalised MLE, nested pair, training window"
+O1,A2,logistic,P+F2,P+F2 − P,all,train,lr_chi2,26.653298750539307,,,,,"unpenalised MLE, nested pair, training window"
+O1,A2,logistic,P+F2,P+F2 − P,all,train,lr_df,10.0,,,,,"unpenalised MLE, nested pair, training window"
+O1,A2,logistic,P+F2,P+F2 − P,all,train,lr_p,0.002954110408787887,,,,,"unpenalised MLE, nested pair, training window"
+O1,N50,logistic,P+F,P+F − P,all,train,lr_chi2,75.37297330835372,,,,,"unpenalised MLE, nested pair, training window"
+O1,N50,logistic,P+F,P+F − P,all,train,lr_df,11.0,,,,,"unpenalised MLE, nested pair, training window"
+O1,N50,logistic,P+F,P+F − P,all,train,lr_p,1.1494981011484773e-11,,,,,"unpenalised MLE, nested pair, training window"
+O1,N50,logistic,P+F2,P+F2 − P,all,train,lr_chi2,42.638011271365485,,,,,"unpenalised MLE, nested pair, training window"
+O1,N50,logistic,P+F2,P+F2 − P,all,train,lr_df,10.0,,,,,"unpenalised MLE, nested pair, training window"
+O1,N50,logistic,P+F2,P+F2 − P,all,train,lr_p,5.771458849586808e-06,,,,,"unpenalised MLE, nested pair, training window"
+O1,activity,logistic,P+F,P+F − P,all,train,lr_chi2,57.01117192408901,,,,,"unpenalised MLE, nested pair, training window"
+O1,activity,logistic,P+F,P+F − P,all,train,lr_df,11.0,,,,,"unpenalised MLE, nested pair, training window"
+O1,activity,logistic,P+F,P+F − P,all,train,lr_p,3.311594229920482e-08,,,,,"unpenalised MLE, nested pair, training window"
+O1,activity,logistic,P+F2,P+F2 − P,all,train,lr_chi2,41.633789626029284,,,,,"unpenalised MLE, nested pair, training window"
+O1,activity,logistic,P+F2,P+F2 − P,all,train,lr_df,10.0,,,,,"unpenalised MLE, nested pair, training window"
+O1,activity,logistic,P+F2,P+F2 − P,all,train,lr_p,8.71135314938045e-06,,,,,"unpenalised MLE, nested pair, training window"
+O1,no_umbrella,logistic,P+F,P+F − P,all,train,lr_chi2,121.58453931099393,,,,,"unpenalised MLE, nested pair, training window"
+O1,no_umbrella,logistic,P+F,P+F − P,all,train,lr_df,11.0,,,,,"unpenalised MLE, nested pair, training window"
+O1,no_umbrella,logistic,P+F,P+F − P,all,train,lr_p,8.699998961593892e-21,,,,,"unpenalised MLE, nested pair, training window"
+O1,no_umbrella,logistic,P+F2,P+F2 − P,all,train,lr_chi2,50.871011146155524,,,,,"unpenalised MLE, nested pair, training window"
+O1,no_umbrella,logistic,P+F2,P+F2 − P,all,train,lr_df,10.0,,,,,"unpenalised MLE, nested pair, training window"
+O1,no_umbrella,logistic,P+F2,P+F2 − P,all,train,lr_p,1.8447889650296233e-07,,,,,"unpenalised MLE, nested pair, training window"
+O2,primary,logistic,P+F,P+F − P,all,train,lr_chi2,20.622986938305303,,,,,"unpenalised MLE, nested pair, training window"
+O2,primary,logistic,P+F,P+F − P,all,train,lr_df,11.0,,,,,"unpenalised MLE, nested pair, training window"
+O2,primary,logistic,P+F,P+F − P,all,train,lr_p,0.03749412946454665,,,,,"unpenalised MLE, nested pair, training window"
+O2,primary,logistic,P+F2,P+F2 − P,all,train,lr_chi2,21.216578562147333,,,,,"unpenalised MLE, nested pair, training window"
+O2,primary,logistic,P+F2,P+F2 − P,all,train,lr_df,10.0,,,,,"unpenalised MLE, nested pair, training window"
+O2,primary,logistic,P+F2,P+F2 − P,all,train,lr_p,0.01963295708127964,,,,,"unpenalised MLE, nested pair, training window"

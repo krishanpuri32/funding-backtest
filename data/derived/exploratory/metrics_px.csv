@@ -1,0 +1,67 @@
+outcome,population,spec,featureset,comparison,stratum,window,metric,value,ci_lo,ci_hi,n,n_events,note
+O1,P_only,logistic,P,,all,test,auc,0.7768133705505196,0.7592146207488804,0.7944121203521588,5323,800,DeLong 95% CI
+O1,P_only,logistic,P,,all,test,brier,0.11085166143496306,,,5323,800,
+O1,P_only,logistic,P,,all,test,log_loss,0.3657702335576646,,,5323,800,
+O1,P_only,logistic,P,,all,test,cal_slope,0.9641209081298877,,,5323,800,
+O1,P_only,logistic,P,,all,test,cal_intercept,0.4381779085505359,,,5323,800,calibration-in-the-large (offset logit p)
+O1,P_only,logistic,P-px,,all,test,auc,0.7766843079814283,0.7590569837268224,0.7943116322360342,5323,800,DeLong 95% CI
+O1,P_only,logistic,P-px,,all,test,brier,0.11091704971560677,,,5323,800,
+O1,P_only,logistic,P-px,,all,test,log_loss,0.366352861849757,,,5323,800,
+O1,P_only,logistic,P-px,,all,test,cal_slope,0.9558982950590692,,,5323,800,
+O1,P_only,logistic,P-px,,all,test,cal_intercept,0.4496808777226398,,,5323,800,calibration-in-the-large (offset logit p)
+O1,P_only,logistic,P-px,P-px − P,all,test,delta_auc,-0.00012906256909128722,-0.0009599134640140977,0.0007100323171292887,5323,800,"exploratory (plan §14); paired bootstrap 1000 resamples, percentile 95% CI"
+O1,P_only,hgb,P,,all,test,auc,0.7637212580145921,0.7456131875296668,0.7818293284995175,5323,800,DeLong 95% CI
+O1,P_only,hgb,P,,all,test,brier,0.11061935571982477,,,5323,800,
+O1,P_only,hgb,P,,all,test,log_loss,0.3736486893185354,,,5323,800,
+O1,P_only,hgb,P,,all,test,cal_slope,0.8116286036139008,,,5323,800,
+O1,P_only,hgb,P,,all,test,cal_intercept,0.49989925453404405,,,5323,800,calibration-in-the-large (offset logit p)
+O1,P_only,hgb,P-px,,all,test,auc,0.7639781395091754,0.7460922320541675,0.7818640469641832,5323,800,DeLong 95% CI
+O1,P_only,hgb,P-px,,all,test,brier,0.11109460318956317,,,5323,800,
+O1,P_only,hgb,P-px,,all,test,log_loss,0.3720382556164882,,,5323,800,
+O1,P_only,hgb,P-px,,all,test,cal_slope,0.8384863871353216,,,5323,800,
+O1,P_only,hgb,P-px,,all,test,cal_intercept,0.4631894672480202,,,5323,800,calibration-in-the-large (offset logit p)
+O1,P_only,hgb,P-px,P-px − P,all,test,delta_auc,0.0002568814945832498,-0.0043986708900889794,0.005031022410120247,5323,800,"exploratory (plan §14); paired bootstrap 1000 resamples, percentile 95% CI"
+O1,P_only_A2,logistic,P,,all,test,auc,0.7596285651116516,0.7392526412068509,0.7800044890164523,5123,600,DeLong 95% CI
+O1,P_only_A2,logistic,P,,all,test,brier,0.09398411012744345,,,5123,600,
+O1,P_only_A2,logistic,P,,all,test,log_loss,0.3241814246137942,,,5123,600,
+O1,P_only_A2,logistic,P,,all,test,cal_slope,0.8480990600748334,,,5123,600,
+O1,P_only_A2,logistic,P,,all,test,cal_intercept,0.45194538329179307,,,5123,600,calibration-in-the-large (offset logit p)
+O1,P_only_A2,logistic,P-px,,all,test,auc,0.7595688702188813,0.7391579845314019,0.7799797559063607,5123,600,DeLong 95% CI
+O1,P_only_A2,logistic,P-px,,all,test,brier,0.09400807462345358,,,5123,600,
+O1,P_only_A2,logistic,P-px,,all,test,log_loss,0.324530714009039,,,5123,600,
+O1,P_only_A2,logistic,P-px,,all,test,cal_slope,0.8446543065733432,,,5123,600,
+O1,P_only_A2,logistic,P-px,,all,test,cal_intercept,0.4599410552548741,,,5123,600,calibration-in-the-large (offset logit p)
+O1,P_only_A2,logistic,P-px,P-px − P,all,test,delta_auc,-5.9694892770245644e-05,-0.00048405996471371224,0.0003903995473528376,5123,600,"exploratory (plan §14); paired bootstrap 1000 resamples, percentile 95% CI"
+O1,P_only_A2,hgb,P,,all,test,auc,0.7431352715749134,0.7213633912503499,0.764907151899477,5123,600,DeLong 95% CI
+O1,P_only_A2,hgb,P,,all,test,brier,0.095754412160806,,,5123,600,
+O1,P_only_A2,hgb,P,,all,test,log_loss,0.33983078019542184,,,5123,600,
+O1,P_only_A2,hgb,P,,all,test,cal_slope,0.6987938003783277,,,5123,600,
+O1,P_only_A2,hgb,P,,all,test,cal_intercept,0.5771847891987273,,,5123,600,calibration-in-the-large (offset logit p)
+O1,P_only_A2,hgb,P-px,,all,test,auc,0.7446878915174294,0.7232807296765612,0.7660950533582976,5123,600,DeLong 95% CI
+O1,P_only_A2,hgb,P-px,,all,test,brier,0.09574680835048946,,,5123,600,
+O1,P_only_A2,hgb,P-px,,all,test,log_loss,0.3391904260081316,,,5123,600,
+O1,P_only_A2,hgb,P-px,,all,test,cal_slope,0.6999380499322942,,,5123,600,
+O1,P_only_A2,hgb,P-px,,all,test,cal_intercept,0.577478974541545,,,5123,600,calibration-in-the-large (offset logit p)
+O1,P_only_A2,hgb,P-px,P-px − P,all,test,delta_auc,0.001552619942515987,-0.003542746905612679,0.0061973974412411785,5123,600,"exploratory (plan §14); paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,logistic,P,,all,test,auc,0.7247076461769115,0.6973909106433911,0.752024381710432,3825,345,DeLong 95% CI
+O1,primary,logistic,P,,all,test,brier,0.07838927510472761,,,3825,345,
+O1,primary,logistic,P,,all,test,log_loss,0.28550817653705807,,,3825,345,
+O1,primary,logistic,P,,all,test,cal_slope,0.8672779119793049,,,3825,345,
+O1,primary,logistic,P,,all,test,cal_intercept,0.5189534549738908,,,3825,345,calibration-in-the-large (offset logit p)
+O1,primary,logistic,P-px,,all,test,auc,0.7247326336831584,0.6973165325738329,0.752148734792484,3825,345,DeLong 95% CI
+O1,primary,logistic,P-px,,all,test,brier,0.07837908806480597,,,3825,345,
+O1,primary,logistic,P-px,,all,test,log_loss,0.2857284231828047,,,3825,345,
+O1,primary,logistic,P-px,,all,test,cal_slope,0.8610199829735425,,,3825,345,
+O1,primary,logistic,P-px,,all,test,cal_intercept,0.5255203627578344,,,3825,345,calibration-in-the-large (offset logit p)
+O1,primary,logistic,P-px,P-px − P,all,test,delta_auc,2.4987506246909597e-05,-0.0011786463848232176,0.0013471655262171725,3825,345,"exploratory (plan §14); paired bootstrap 1000 resamples, percentile 95% CI"
+O1,primary,hgb,P,,all,test,auc,0.7118578210894553,0.6850681412574094,0.7386475009215011,3825,345,DeLong 95% CI
+O1,primary,hgb,P,,all,test,brier,0.07903154950979581,,,3825,345,
+O1,primary,hgb,P,,all,test,log_loss,0.2910162502262951,,,3825,345,
+O1,primary,hgb,P,,all,test,cal_slope,0.7229676441537263,,,3825,345,
+O1,primary,hgb,P,,all,test,cal_intercept,0.5414423737268766,,,3825,345,calibration-in-the-large (offset logit p)
+O1,primary,hgb,P-px,,all,test,auc,0.713691904047976,0.6867346716523983,0.7406491364435537,3825,345,DeLong 95% CI
+O1,primary,hgb,P-px,,all,test,brier,0.07895525397357944,,,3825,345,
+O1,primary,hgb,P-px,,all,test,log_loss,0.2906451274698545,,,3825,345,
+O1,primary,hgb,P-px,,all,test,cal_slope,0.7207071735129466,,,3825,345,
+O1,primary,hgb,P-px,,all,test,cal_intercept,0.5271493985454201,,,3825,345,calibration-in-the-large (offset logit p)
+O1,primary,hgb,P-px,P-px − P,all,test,delta_auc,0.001834082958520722,-0.005308561474386575,0.008926605012106046,3825,345,"exploratory (plan §14); paired bootstrap 1000 resamples, percentile 95% CI"
